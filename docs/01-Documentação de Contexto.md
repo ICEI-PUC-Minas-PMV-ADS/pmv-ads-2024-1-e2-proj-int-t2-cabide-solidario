@@ -38,10 +38,23 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O público-alvo desta aplicação abrange uma variedade de perfis, refletindo as diversas necessidades e características dos agentes envolvidos no processo de doação. Segue descrito abaixo os detalhes dos perfis que foram mapeados para esta aplicação:
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Doadores:  
+* Este grupo é composto por indivíduos ou empresas que doam regularmente ou ocasionalmente, motivados por campanhas específicas ou necessidades pontuais. Eles esperam uma experiência de doação simples e eficaz, com informações claras sobre como suas doações serão utilizadas e quem serão os beneficiários.
+
+Voluntários e Colaboradores da ONG:  
+* Este grupo é formado por pessoas engajadas com a causa, que utilizam a aplicação para gerenciar as doações e organizar a distribuição de roupas. Eles serão responsáveis pelo recebimento e cadastro das peças no sistema, entrega de doações e eventual auxílio ao acesso para aqueles que não possuem acesso à internet. Os indivíduos nesse grupo podem ter variados níveis de familiaridade com a tecnologia, necessitando de uma interface amigável e treinamento adequado.
+
+Famílias e Indivíduos Beneficiários:  
+* Este grupo é composto por pessoas em situação de vulnerabilidade que se beneficiarão das doações, que pode incluir famílias de baixa renda, pessoas em situação de rua, vítimas de desastres naturais, entre outros. Suas habilidades tecnológicas podem variar amplamente, exigindo que a aplicação ofereça uma maneira simples e direta de identificar as doações disponíveis e como retirá-las ou recebê-las.
+
+Gestores da ONG:  
+* Este grupo abrange os líderes e administradores da ONG, responsáveis pelo planejamento estratégico, captação de recursos e gestão das operações diárias. Eles buscam uma aplicação que forneça insights valiosos sobre o processo de doação, facilitando a tomada de decisão e o alcance dos objetivos da organização.
+
+Patrocinadores:  
+* Empresas e indivíduos financeiramente capazes que desejam apoiar causas sociais. Eles buscam transparência e eficácia, esperando ver o impacto direto de suas contribuições. A aplicação deve fornecer relatórios simplificados sobre o uso de fundos e os resultados obtidos, além de facilitar a comunicação com a ONG para futuras colaborações.
+
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
