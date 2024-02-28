@@ -1,6 +1,10 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+No mundo contemporâneo, onde a desigualdade social e as necessidades humanas são evidentes, as doações desempenham um papel importante na vida de milhares de famílias e na promoção do bem-estar coletivo. Neste contexto, as Organizações Não Governamentais (ONGs) são consideradas agentes essenciais, canalizando recursos e esforços para áreas carentes e causas diversas, desde ajuda humanitária à preservação ambiental.
+
+“Existe uma diversidade de ONGs atuando no Brasil com significativas distinções no que se refere a seus objetivos, formas de trabalho, fontes de financiamento, beneficiários e parceiros, além de sua contribuição positiva ou negativa à democratização do país” (ANDRADE, 2015).
+
+Entretanto, apesar da importância do trabalho desempenhado por essas organizações, o processo nem sempre é tão acessível ou eficiente quanto poderia ser. Sabendo da necessidade de melhoria nos processos das ONGs, é fundamental que, através da tecnologia, uma aplicação auxilie os agentes envolvidos.
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
