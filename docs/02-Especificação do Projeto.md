@@ -33,8 +33,7 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |COLABORADOR DA ONG  | quero gerenciar o estoque de peças de roupas | para verificar a quem foram entregue e saber se o estoque está baixo |
 |COLABORADOR DA ONG  | quero gerenciar o cadastro de candidatos | para selecionar novos colaboradores |
 |COLABORADOR DA ONG  | quero inserir a logomarca de empresas parceiras na aplicação | para que os visitantes da aplicação saibam quais empresas apoiam a causa social da ONG |
-|CANDIDATO À 
-COLABORADOR DA ONG   | quero preencher meu cadastro de candidato | para participar como colaborador da ONG |
+|CANDIDATO À COLABORADOR DA ONG   | quero preencher meu cadastro de candidato | para participar como colaborador da ONG |
 |INDIVÍDUO BENEFICIADO  | quero conseguir acessar a aplicação | para preencher meu cadastro e poder escolher roupas disponibilizadas pela ONG na aplicação |
 
 
