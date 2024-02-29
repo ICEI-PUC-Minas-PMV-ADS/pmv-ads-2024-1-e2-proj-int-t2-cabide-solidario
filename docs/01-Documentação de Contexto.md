@@ -29,12 +29,12 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Em pesquisa realizada pelo IDIS - Instituto para o Desenvolvimento do Investimento Social com 1.508 pessoas em âmbito nacional, entre maio e junho de 2023, mostrou que “84% dos brasileiros acima de 18 anos e com rendimento superior a um salário mínimo, fizeram ao menos uma doação em 2022, seja de dinheiro, bens ou tempo, na forma de trabalho voluntário.” (IDIS, 2023). A pesquisa mostra ainda que, no ano de 2022, 1 em cada 3 pessoas fez doações a ONGs ou projetos socioambientais.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Além disso, IDIS (2003), demonstrou que, principalmente entre os jovens, há uma maior percepção do papel de ONG’s e empresas na solução de problemas socioambientais, demonstrando ainda uma maior confiança no trabalho desempenhado por essas instituições e na destinação de suas doações nos projetos sociais a que se propunham.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O projeto se justifica por contribuir com a causa social de oferecer vestimentas àqueles que não têm condições de custear para si e sua família, propondo dar maior visibilidade e facilitar o engajamento na causa através de ferramenta tecnológica compatível com as gerações mais jovens, sem excluir a participação de qualquer indivíduo que se identifique com a causa do projeto social, além de facilitar a organização e os processos que fazem a ligação entre os diversos atores envolvidos.
+
 
 ## Público-Alvo
 
