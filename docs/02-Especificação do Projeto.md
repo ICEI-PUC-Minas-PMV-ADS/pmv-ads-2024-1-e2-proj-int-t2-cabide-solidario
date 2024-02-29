@@ -28,8 +28,14 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|COLABORADOR DA ONG  | quero cadastrar doadores, tanto pessoas físicas quanto jurídicas | para ter controle de quem doou determinada peça e quanto doou de verba |
+|COLABORADOR DA ONG  | quero cadastrar peças de roupas doadas | para deixá-las disponíveis aos beneficiados para que estes possam escolher conforme interesse |
+|COLABORADOR DA ONG  | quero gerenciar o estoque de peças de roupas | para verificar a quem foram entregue e saber se o estoque está baixo |
+|COLABORADOR DA ONG  | quero gerenciar o cadastro de candidatos | para selecionar novos colaboradores |
+|COLABORADOR DA ONG  | quero inserir a logomarca de empresas parceiras na aplicação | para que os visitantes da aplicação saibam quais empresas apoiam a causa social da ONG |
+|CANDIDATO À 
+COLABORADOR DA ONG   | quero preencher meu cadastro de candidato | para participar como colaborador da ONG |
+|INDIVÍDUO BENEFICIADO  | quero conseguir acessar a aplicação | para preencher meu cadastro e poder escolher roupas disponibilizadas pela ONG na aplicação |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
