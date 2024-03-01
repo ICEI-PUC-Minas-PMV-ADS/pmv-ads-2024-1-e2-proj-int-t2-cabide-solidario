@@ -45,15 +45,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve conter em sua página home uma área de navegação que interligue todas as áreas do site. | ALTA | 
-|RF-002| A aplicação deve conter em sua página home informações gerais da ONG, colaboradores e patrocinadores.   | ALTA |
-|RF-003| A aplicação deve conter em sua página home um botão que leve o usuário para área de catálogo de roupas. | ALTA | 
-|RF-004| A aplicação deve conter uma página com um catálogo de todas as roupas disponíveis para doação, sendo possível filtrar as roupas por diversos tipos.   | ALTA |
-|RF-005| A aplicação deve conter uma área onde o usuário poderá finalizar seu pedido. | ALTA | 
-|RF-006| A aplicação deve permitir que o usuário cadastre suas informações.   | ALTA |
-|RF-007| A aplicação deve ter uma área de gerenciamento para colaboradores da ONG. | ALTA | 
-|RF-008| A aplicação deve ser capaz de gravar informações de roupas, doadores e usuário em tabelas no seu backend.   | ALTA |
-|RF-009| A aplicação deve conter uma área com um formulário para cadastro de candidatos para voluntariado.   | MÉDIA |
+|RF-01| A aplicação deve conter em sua página home uma área de navegação que interligue todas as áreas do site. | ALTA | 
+|RF-02| A aplicação deve conter em sua página home informações gerais da ONG, colaboradores e patrocinadores.   | ALTA |
+|RF-03| A aplicação deve conter em sua página home um botão que leve o usuário para área de catálogo de roupas. | ALTA | 
+|RF-04| A aplicação deve conter uma página com um catálogo de todas as roupas disponíveis para doação, sendo possível filtrar as roupas por diversos tipos.   | ALTA |
+|RF-05| A aplicação deve conter uma área onde o usuário poderá finalizar seu pedido. | ALTA | 
+|RF-06| A aplicação deve permitir que o usuário cadastre suas informações.   | ALTA |
+|RF-07| A aplicação deve ter uma área de gerenciamento para colaboradores da ONG. | ALTA | 
+|RF-08| A aplicação deve ser capaz de gravar informações de roupas, doadores e usuário em tabelas no seu backend.   | ALTA |
+|RF-09| A aplicação deve conter uma área com um formulário para cadastro de candidatos para voluntariado.   | MÉDIA |
 
 ### Requisitos não Funcionais
 
@@ -83,11 +83,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|RE-01| O projeto deverá ser entregue no final do semestre letivo, não podendo
-extrapolar a data de 04/07/2024.
- |
-|RE-02| A aplicação deve se restringir às tecnologias básicas da Web no Frontend.        |
-|RE-03| A equipe não pode subcontratar o desenvolvimento do trabalho.        |
+|RE-01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 04/07/2024.|
+|RE-02| A aplicação deve se restringir às tecnologias básicas da Web no Frontend.|
+|RE-03| A equipe não pode subcontratar o desenvolvimento do trabalho.|
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
