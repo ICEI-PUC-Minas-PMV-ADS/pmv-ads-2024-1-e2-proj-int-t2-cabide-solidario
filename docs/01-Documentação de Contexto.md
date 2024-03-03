@@ -20,9 +20,14 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+A aplicação tem como objetivo estabelecer um ambiente digital que visa auxiliar uma organização em seus processos internos, que tem como propósito a distribuição de roupas para indivíduos em situação de vulnerabilidade.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Como objetivos específicos temos:
+
++ Possibilitar que tanto os beneficiários quanto os voluntários vinculados à organização consigam utilizar a aplicação com facilidade mesmo tendo pouco conhecimento em tecnologia.
+
++ A aplicação deve ser capaz de identificar os diversos usuários vinculados à plataforma, possibilitando ter o controle de cada peça que entra e que sai, inclusive quem doou e quem recebeu.
+
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)

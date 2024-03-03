@@ -10,6 +10,56 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
++ ### Antônio Caetano
+
+	<img src="https://get.pxhere.com/photo/man-person-black-and-white-white-street-photography-ebook-male-portrait-training-black-monochrome-facial-expression-smile-streetphotography-flickr-face-thomas-video-head-olympus-photograph-beauty-omd-fuji-leica-emotion-monochrom-leuthard-hcb-thomasleuthard-monochrome-photography-portrait-photography-film-noir-facial-hair-human-positions-321195.jpg" alt="drawing" style="width:200px;"/>
+
+	+ **Idade**: 61 anos
+
+	+ **Ocupação**:  
+	Serviços gerais
+
+	+ **Aplicativos**:  
+Whatsapp ; Google
+
+	+ **Motivações**:
+		+ Necessita de roupas que estão para doação
+
+	+ **Frustrações**:  
+		+ Dificuldade para encontrar roupas para doação
+		+ Pouca facilidade no processo de retirada de roupas.
+		
+	+ **Expectativa**:  
+		+ Interface intuitiva para facilidade na hora da escolha das roupas.
+		+ Facilidade na navegação entre as janelas da aplicação.
+      + Tornar o processo de retirada simples para aqueles que têm pouco 
+      conhecimento de tecnologia.
+
++ ### Geovana Mendes
+
+	<img src="https://images.pexels.com/photos/5255556/pexels-photo-5255556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="drawing" style="width:200px;"/>
+
+	+ **Idade**: 25 anos
+
+	+ **Ocupação**:  
+	Voluntária da ONG
+
+	+ **Aplicativos**:  
+Whatsapp ; Google ; YouTube; Intagram
+
+	+ **Motivações**:
+		+ Ajudar no proceso de distribuição de roupas para pessoas carentes.
+
+	+ **Frustrações**:  
+		+ Falta de uma platafoma que auxilie o processo.
+		
+	+ **Expectativa**:  
+		+ Ambiente com capacidade de cadastro de qualquer peça, podendo categorizá-las em diversos tipos.
+		+ O ambiente precisa possibilitar o cadastro de doadores atrelando as peças doadas por ele ao cadastro do mesmo.
+      + A interface precisa ser simples para que qualquer colaborador tenha capacidade de gerenciar a aplicação.
+
+
+
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
