@@ -95,14 +95,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01| A aplicação deve conter em sua página home uma área de navegação que interligue todas as áreas do site. | ALTA | 
-|RF-02| A aplicação deve conter em sua página home informações gerais da ONG, colaboradores e patrocinadores.   | ALTA |
-|RF-03| A aplicação deve conter em sua página home um botão que leve o usuário para área de catálogo de roupas. | ALTA | 
-|RF-04| A aplicação deve conter uma página com um catálogo de todas as roupas disponíveis para doação, sendo possível filtrar as roupas por diversos tipos.   | ALTA |
-|RF-05| A aplicação deve conter uma área onde o usuário poderá finalizar seu pedido. | ALTA | 
-|RF-06| A aplicação deve permitir que o usuário cadastre suas informações.   | ALTA |
-|RF-07| A aplicação deve ter uma área de gerenciamento para colaboradores da ONG. | ALTA | 
-|RF-08| A aplicação deve ser capaz de gravar informações de roupas, doadores e usuário em tabelas no seu backend.   | ALTA |
+|RF-01| A aplicação deve possibilitar a navegação em seus diversos ambientes, conforme o objetivo do usuário. | ALTA | 
+|RF-02| A aplicação deve apresentar informações gerais da ONG, colaboradores e patrocinadores.   | ALTA |
+|RF-03| A aplicação deve disponibilizar um catálogo de todas as roupas disponíveis para doação. | ALTA | 
+|RF-04| A aplicação deve possibilitar o filtro dos itens constantes no catálogo.   | ALTA |
+|RF-05| A aplicação deve permitir que o usuário realize seu pedido. | ALTA | 
+|RF-06| A aplicação deve permitir que os colaboradores cadastrem as informações no catálogo de itens.   | ALTA |
+|RF-07| A aplicação deve ter uma área de login para colaboradores da ONG. | ALTA | 
+|RF-08| A aplicação deve ser capaz de gravar informações de roupas, doadores e usuários.   | ALTA |
 |RF-09| A aplicação deve conter uma área com um formulário para cadastro de candidatos para voluntariado.   | MÉDIA |
 
 ### Requisitos não Funcionais
@@ -112,20 +112,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| A aplicação deve ser responsiva sendo possível rodar em diversos tamanhos de tela. | ALTA | 
 |RNF-002| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) |  ALTA | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -135,14 +121,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |RE-01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 04/07/2024.|
 |RE-02| A aplicação deve se restringir às tecnologias básicas da Web no Frontend.|
-|RE-03| A equipe não pode subcontratar o desenvolvimento do trabalho.|
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|RE-03| A aplicação deve se restringir à linguagem de programação C#.|
+|RE-04| A equipe não pode subcontratar o desenvolvimento do trabalho.|
 
 ## Diagrama de Casos de Uso
 
