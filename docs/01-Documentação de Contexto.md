@@ -7,16 +7,19 @@ No mundo contemporâneo, onde a desigualdade social e as necessidades humanas s�
 Entretanto, apesar da importância do trabalho desempenhado por essas organizações, o processo nem sempre é tão acessível ou eficiente quanto poderia ser. Sabendo da necessidade de melhoria nos processos das ONGs, é fundamental que, através da tecnologia, uma aplicação auxilie os agentes envolvidos.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Apesar da importância do trabalho das instituições, os processos de arrecadação e distribuição de peças de roupas nem sempre são acessíveis ou eficientes.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+<b>Ineficiência nos Processos Atuais</b>: As ONGs enfrentam desafios na gestão manual e descentralizada das doações de roupas, resultando em falta de controle sobre o estoque, dificuldades na identificação de doadores e beneficiários, bem como na coordenação logística das entregas.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+<b>Barreiras Tecnológicas e de Acesso</b>: A falta de uma plataforma tecnológica adequada dificulta o envolvimento eficaz de doadores, voluntários e beneficiários. Muitos indivíduos podem não possuir conhecimentos tecnológicos para utilizar sistemas complexos, o que limita a participação e compromete a eficiência das doações.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+<b>Transparência e Rastreabilidade Limitadas</b>: A ausência de um sistema integrado dificulta a transparência na prestação de contas e na demonstração do impacto das doações. A falta de rastreabilidade dificulta a identificação do ciclo de vida das peças doadas, desde a origem até o destino final.
+
+<b>Dificuldade na Identificação de Necessidades e Prioridades</b>: As ONGs enfrentam dificuldades para entender as necessidades específicas das comunidades atendidas e priorizar adequadamente a distribuição de recursos, o que pode resultar em alocação inadequada de doações.
+
+<b>Desafios na Interação com Patrocinadores e Doadores</b>: A comunicação e o engajamento com patrocinadores e doadores são essenciais para garantir o apoio contínuo às atividades da ONG. No entanto, a falta de uma plataforma centralizada dificulta a comunicação eficaz e a prestação de relatórios transparentes sobre o uso dos recursos.
+
+Em suma, os processos inadequados de arrecadação e distribuição de roupas por parte das ONGs representam um obstáculo significativo para o alcance eficaz de suas missões e para a promoção do bem-estar das comunidades atendidas. É crucial desenvolver uma solução tecnológica que aborde esses desafios, promovendo eficiência, transparência e acessibilidade em todo o ciclo de doação de roupas.
 
 ## Objetivos
 
@@ -27,10 +30,6 @@ Como objetivos específicos temos:
 + Possibilitar que tanto os beneficiários quanto os voluntários vinculados à organização consigam utilizar a aplicação com facilidade mesmo tendo pouco conhecimento em tecnologia.
 
 + A aplicação deve ser capaz de identificar os diversos usuários vinculados à plataforma, possibilitando ter o controle de cada peça que entra e que sai, inclusive quem doou e quem recebeu.
-
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
@@ -60,9 +59,3 @@ Gestores da ONG:
 Patrocinadores:  
 * Empresas e indivíduos financeiramente capazes que desejam apoiar causas sociais. Eles buscam transparência e eficácia, esperando ver o impacto direto de suas contribuições. A aplicação deve fornecer relatórios simplificados sobre o uso de fundos e os resultados obtidos, além de facilitar a comunicação com a ONG para futuras colaborações.
 
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
