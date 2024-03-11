@@ -80,16 +80,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-01| A aplicação deve possibilitar a navegação em seus diversos ambientes, conforme o objetivo do usuário. | ALTA | 
-|RF-02| A aplicação deve apresentar informações gerais da ONG, colaboradores e patrocinadores.   | ALTA |
-|RF-03| A aplicação deve disponibilizar um catálogo de todas as roupas disponíveis para doação. | ALTA | 
-|RF-04| A aplicação deve possibilitar o filtro dos itens constantes no catálogo.   | ALTA |
-|RF-05| A aplicação deve permitir que o usuário realize seu pedido. | ALTA | 
-|RF-06| A aplicação deve permitir que os colaboradores cadastrem as informações no catálogo de itens.   | ALTA |
-|RF-07| A aplicação deve ter uma área de login para colaboradores da ONG. | ALTA | 
-|RF-08| A aplicação deve ser capaz de gravar informações de roupas, doadores e usuários.   | ALTA |
-|RF-09| A aplicação deve conter uma área com um formulário para cadastro de candidatos para voluntariado.   | MÉDIA |
+|------|-----------------------------------------|----| 
+|RF-01| A aplicação deve apresentar informações gerais da ONG, colaboradores e patrocinadores.   | ALTA |
+|RF-02| A aplicação deve disponibilizar um catálogo de todas as roupas disponíveis para doação. | ALTA | 
+|RF-03| A aplicação deve possibilitar o filtro dos itens constantes no catálogo.   | ALTA |
+|RF-04| A aplicação deve permitir que o usuário realize seu pedido. | ALTA | 
+|RF-05| A aplicação deve permitir que os colaboradores cadastrem as informações no catálogo de itens.   | ALTA |
+|RF-06| A aplicação deve ter uma área de login para colaboradores da ONG. | ALTA | 
+|RF-07| A aplicação deve ser capaz de gravar informações de roupas, doadores e usuários.   | ALTA |
+|RF-08| A aplicação deve conter uma área com um formulário para cadastro de candidatos para voluntariado.   | MÉDIA |
 
 ### Requisitos não Funcionais
 
