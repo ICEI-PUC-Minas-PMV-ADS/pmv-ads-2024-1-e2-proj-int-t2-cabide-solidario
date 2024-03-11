@@ -116,4 +116,4 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 O diagrama de casos de uso utiliza um modelo gráfico dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos, conforme imagem a seguir:
 
-[Diagrama de casos de uso - Cabide Solidário](./img/Copy of Diagrama de caso de uso.png)
+[Diagrama de casos de uso - Cabide Solidário] (docs/img/diagrama_de_casos_de_uso.png)
