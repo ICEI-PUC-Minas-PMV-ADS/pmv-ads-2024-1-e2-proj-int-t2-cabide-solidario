@@ -8,8 +8,6 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
-
 + ### Antônio Caetano
 
 	<img src="https://get.pxhere.com/photo/man-person-portrait-senior-citizen-glasses-head-odyssey-plpconnectu-idaho-facial-hair-vision-care-military-officer-354914.jpg" alt="drawing" style="width:200px;"/>
