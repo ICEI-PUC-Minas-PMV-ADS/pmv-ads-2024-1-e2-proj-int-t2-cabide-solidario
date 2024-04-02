@@ -24,6 +24,34 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ![Exemplo de Wireframe](img/wireframe-example.png)
 
+Conforme o diagrama de fluxo do projeto, apresentado no item anterior, as telas da aplicação serão apresentadas em detalhes nos itens abaixo. Para visualizar o wireframe interativo, acesse o ambiente MarvelApp do projeto: https://marvelapp.com/prototype/a0afee5
+
+As telas do sistema apresentam uma estrutura comum que é apresentada na Figura W1. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:
+● Cabeçalho - local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação);
+● Conteúdo - apresenta o conteúdo da tela em questão;
+● Rodapé - apresenta informações sobre os direitos autorais.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-cabide-solidario/assets/144265096/e1d737c5-237f-40b7-9801-e417d94fcf2b)
+
+<figure> 
+  <figcaption>Figura W1 - Estrutura padrão do site
+</figure> 
+<hr>
+
+<h3><b>Tela - Home page</b></h3>
+A tela de home page apresenta um menu superior de navegação, icone para login dos voluntários (usuários administrativos) e várias seções, são elas: breve descrição da ONG, carrossel com algumas peças de roupa, equipe de voluntários, espaço para novos apoiadores, espaço para candidatos ao voluntariado, empresas parceiras e projetos apoiados.
+
+https://marvelapp.com/project/6838966/design/92715119
+
+
+<figure> 
+  <figcaption>Figura W2 - Tela home page
+</figure> 
+<hr>
+
+
+
+
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
 > **Links Úteis**:
