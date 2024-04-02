@@ -22,15 +22,14 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
-
 Conforme o diagrama de fluxo do projeto, apresentado no item anterior, as telas da aplicação serão apresentadas em detalhes nos itens abaixo. Para visualizar o wireframe interativo, acesse o ambiente MarvelApp do projeto: https://marvelapp.com/prototype/a0afee5
 
 As telas do sistema apresentam uma estrutura comum que é apresentada na Figura W1. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:
-● Cabeçalho - local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação);
-● Conteúdo - apresenta o conteúdo da tela em questão;
-● Rodapé - apresenta informações sobre os direitos autorais.
-
+<ul>
+<li>Cabeçalho - local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação);</li>
+<li>Conteúdo - apresenta o conteúdo da tela em questão;</li>
+<li>Rodapé - apresenta informações sobre os direitos autorais.</li>
+</ul>
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-cabide-solidario/assets/144265096/e1d737c5-237f-40b7-9801-e417d94fcf2b)
 
 <figure> 
@@ -39,26 +38,35 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 
 <hr>
 
 <h3><b>Tela - Home page</b></h3>
-A tela de home page apresenta um menu superior de navegação, icone para login dos voluntários (usuários administrativos) e várias seções, são elas: breve descrição da ONG, carrossel com algumas peças de roupa, equipe de voluntários, espaço para novos apoiadores, espaço para candidatos ao voluntariado, empresas parceiras e projetos apoiados.
+A tela de home page apresenta um menu superior de navegação, icone para login dos voluntários (usuários administrativos) e várias seções, são elas: breve descrição da ONG, carrossel com algumas peças de roupa, equipe de voluntários, espaço para novos apoiadores, espaço para candidatos ao voluntariado, empresas parceiras e projetos apoiados. A tela home exibe, quando solicitado, o modal de login para que os usuários administradores loguem na plataforma.
 
-https://marvelapp.com/project/6838966/design/92715119
-
+>>> FALTA INSERIR IMAGEM<<<
 
 <figure> 
   <figcaption>Figura W2 - Tela home page
 </figure> 
 <hr>
 
+<h3><b>Tela - Página do voluntário</b></h3>
+A tela do voluntário possibilita cadastrar novos itens, extrair relatorio do estoque, excluir itens do estoque, visualizar a listagem de candidatos ao voluntariado e parceiros.
+
+>>> FALTA INSERIR IMAGEM<<<
+
+<figure> 
+  <figcaption>Figura W3 - Página do voluntário
+</figure> 
+<hr>
+
+<h3><b>Tela - Catálogo de roupas</b></h3>
+A tela do catálogo de roupas tem uma barra lateral à esquerda para filtrar itens. Ao centro, todas as roupas em estoque disponíveis. Na lateral direita, um carrinho que contempla os itens selecionados e um botão para fechar o pedido.
+Esta tela ainda exibe um modal para finalizar o pedido
+
+>>> FALTA INSERIR IMAGEM<<<
+
+<figure> 
+  <figcaption>Figura W4 - Catálogo de roupas
+</figure> 
+<hr>
 
 
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
