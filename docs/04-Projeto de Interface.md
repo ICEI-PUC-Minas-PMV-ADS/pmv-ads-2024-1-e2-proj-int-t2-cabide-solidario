@@ -30,7 +30,9 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 
 <li>Conteúdo - apresenta o conteúdo da tela em questão;</li>
 <li>Rodapé - apresenta informações sobre os direitos autorais.</li>
 </ul>
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-cabide-solidario/assets/144265096/e1d737c5-237f-40b7-9801-e417d94fcf2b)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-cabide-solidario/assets/144265096/e2fbac22-1c73-4cfa-8a58-8f79998e56b9)
+
 
 <figure> 
   <figcaption>Figura W1 - Estrutura padrão do site
@@ -38,7 +40,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 
 <hr>
 
 <h3><b>Tela - Home page</b></h3>
-A tela de home page apresenta um menu superior de navegação, icone para login dos voluntários (usuários administrativos) e várias seções, são elas: breve descrição da ONG, carrossel com algumas peças de roupa, equipe de voluntários, espaço para novos apoiadores, espaço para candidatos ao voluntariado, empresas parceiras e projetos apoiados. A tela home exibe, quando solicitado, o modal de login para que os usuários administradores loguem na plataforma.
+<p>A tela de home page apresenta um menu superior de navegação, icone para login dos voluntários (usuários administrativos) e várias seções, são elas: breve descrição da ONG, carrossel com algumas peças de roupa, equipe de voluntários, espaço para novos apoiadores, espaço para candidatos ao voluntariado, empresas parceiras e projetos apoiados. A tela home exibe, quando solicitado, o modal de login para que os usuários administradores loguem na plataforma.</p>
 
 >>> FALTA INSERIR IMAGEM<<<
 
@@ -48,7 +50,7 @@ A tela de home page apresenta um menu superior de navegação, icone para login 
 <hr>
 
 <h3><b>Tela - Página do voluntário</b></h3>
-A tela do voluntário possibilita cadastrar novos itens, extrair relatorio do estoque, excluir itens do estoque, visualizar a listagem de candidatos ao voluntariado e parceiros.
+<p>A tela do voluntário possibilita cadastrar novos itens, extrair relatorio do estoque, excluir itens do estoque, visualizar a listagem de candidatos ao voluntariado e parceiros.</p>
 
 >>> FALTA INSERIR IMAGEM<<<
 
@@ -58,8 +60,8 @@ A tela do voluntário possibilita cadastrar novos itens, extrair relatorio do es
 <hr>
 
 <h3><b>Tela - Catálogo de roupas</b></h3>
-A tela do catálogo de roupas tem uma barra lateral à esquerda para filtrar itens. Ao centro, todas as roupas em estoque disponíveis. Na lateral direita, um carrinho que contempla os itens selecionados e um botão para fechar o pedido.
-Esta tela ainda exibe um modal para finalizar o pedido
+<p>A tela do catálogo de roupas tem uma barra lateral à esquerda para filtrar itens. Ao centro, todas as roupas em estoque disponíveis. Na lateral direita, um carrinho que contempla os itens selecionados e um botão para fechar o pedido.
+Esta tela ainda exibe um modal para finalizar o pedido.</p>
 
 >>> FALTA INSERIR IMAGEM<<<
 
