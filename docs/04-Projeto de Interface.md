@@ -42,7 +42,8 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 
 <h3><b>Tela - Home page</b></h3>
 <p>A tela de home page apresenta um menu superior de navegação, icone para login dos voluntários (usuários administrativos) e várias seções, são elas: breve descrição da ONG, carrossel com algumas peças de roupa, equipe de voluntários, espaço para novos apoiadores, espaço para candidatos ao voluntariado, empresas parceiras e projetos apoiados. A tela home exibe, quando solicitado, o modal de login para que os usuários administradores loguem na plataforma.</p>
 
->>> FALTA INSERIR IMAGEM<<<
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-cabide-solidario/assets/144265096/5fe202cb-f951-4485-b19e-00e5f59ba61e)
+
 
 <figure> 
   <figcaption>Figura W2 - Tela home page
@@ -52,7 +53,8 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 
 <h3><b>Tela - Página do voluntário</b></h3>
 <p>A tela do voluntário possibilita cadastrar novos itens, extrair relatorio do estoque, excluir itens do estoque, visualizar a listagem de candidatos ao voluntariado e parceiros.</p>
 
->>> FALTA INSERIR IMAGEM<<<
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-cabide-solidario/assets/144265096/a0cbaec4-36c7-43d4-9d72-20ba7167b35c)
+
 
 <figure> 
   <figcaption>Figura W3 - Página do voluntário
@@ -63,12 +65,10 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 
 <p>A tela do catálogo de roupas tem uma barra lateral à esquerda para filtrar itens. Ao centro, todas as roupas em estoque disponíveis. Na lateral direita, um carrinho que contempla os itens selecionados e um botão para fechar o pedido.
 Esta tela ainda exibe um modal para finalizar o pedido.</p>
 
->>> FALTA INSERIR IMAGEM<<<
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-cabide-solidario/assets/144265096/0e00b9f1-43e7-4148-b675-96bb28f7b357)
+
 
 <figure> 
   <figcaption>Figura W4 - Catálogo de roupas
 </figure> 
 <hr>
-
-
-
