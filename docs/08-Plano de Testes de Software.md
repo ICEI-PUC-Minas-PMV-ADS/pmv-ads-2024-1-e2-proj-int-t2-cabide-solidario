@@ -1,31 +1,66 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+Os requisitos para realização dos testes de software são:
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
-
-Não deixe de enumerar os casos de teste de forma sequencial e de garantir que o(s) requisito(s) associado(s) a cada um deles está(ão) correto(s) - de acordo com o que foi definido na seção "2 - Especificação do Projeto". 
+* Navegador de internet: Google Chrome, Mozilla Firefox ou Microsoft Edge.
+Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
 Por exemplo:
  
-| **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
+| **Caso de Teste** 	| *CT-01 – Exibir informações do site*	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
-| Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
-|Critério de Êxito | - O cadastro foi realizado com sucesso. |
+|	Requisito Associado 	| RF-001 - A aplicação deve apresentar informações gerais da ONG, colaboradores e patrocinadores. |
+| Objetivo do Teste 	| Verificar se o usuário consegue visualizar as informações de gerais da ONG, colaboradores e patrocinadores. |
+| Passos 	| - Acessar a página home através do link da aplicação e rolar até o final da página para que possa visualizar todas a seções da aplicação. |
+|Critério de Êxito | - A página home será acessada e as informações da aplicação estarão disponíveis para o usuário. |
 |  	|  	|
-| Caso de Teste 	| CT-02 – Efetuar login	|
-|Requisito Associado | RF-00Y	- A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail. |
-| Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
-|Critério de Êxito | - O login foi realizado com sucesso. |
+| Caso de Teste 	| CT-02 – Acesso ao catálogo de roupas	|
+|Requisito Associado | RF-002	- A aplicação deve disponibilizar um catálogo de todas as roupas disponíveis para doação. |
+| Objetivo do Teste 	| Exibir para o usuário todos os itens disponíveis no catálogo. |
+| Passos 	| - Acessar a página home através do link da aplicação <br> - Na página home, clicar para ver todas as peças de roupas disponíveis <br> - Rolar a página para visualizar todas os itens disponíveis no catálogo <br> |
+|Critério de Êxito | - Exibição na tela de todos os itens disponíveis no catálogo. |
+|  	|  	|
+| Caso de Teste 	| CT-03 – Filtros	|
+|Requisito Associado | RF-003	- A aplicação deve possibilitar o filtro dos itens constantes no catálogo. |
+| Objetivo do Teste 	| Verificar se os filtros estão aplicados conforme seleção do usuário. |
+| Passos 	| - Acessar a página home através do link da aplicação <br> - Na página home, clicar para ver todas as peças de roupas disponíveis <br> - Utilizar os filtros disponíveis na lateral esquerda da aplicação. <br> |
+|Critério de Êxito | - Serão exibidos para o usuário os itens conforme o filtro aplicado. |
+|  	|  	|
+| Caso de Teste 	| CT-04 – Realizar pedido	|
+|Requisito Associado | RF-004	- A aplicação deve permitir que o usuário realize seu pedido. |
+| Objetivo do Teste 	| Verificar se o pedido será finalizado após o usuário selecionar os itens no carrinho e clicar para fechar o pedido. |
+| Passos 	| - Acessar a página home através do link da aplicação <br> - Na página home, clicar para ver todas as peças de roupas disponíveis <br> - Selecionar um ou mais itens do catálogo. <br> - Clicar no botão para fechar o pedido. <br> - Inserir as informações pessoais no modal e clicar para finalizar o pedido. <br>|
+|Critério de Êxito | - Será exibida na tela uma mensagem informando que o pedido foi finalizado. |
+|  	|  	|
+| Caso de Teste 	| CT-05 – Cadastrar itens	|
+|Requisito Associado | RF-005	- A aplicação deve permitir que os colaboradores cadastrem as informações no catálogo de itens. |
+| Objetivo do Teste 	| Certificar que novos itens estão sendo cadastrados. |
+| Passos 	| - Acessar a página home através do link da aplicação <br> - Na página home, clicar no icone de usuário na parte superior direita <br> - Realizar o login. <br> - Na página do voluntário, cadastrar novo item na seção "Cadastre um novo item". <br> |
+|Critério de Êxito | - Será exibida na tela uma mensagem informando que o item foi cadastrado com sucesso. |
+|  	|  	|
+| Caso de Teste 	| CT-06 – Login	|
+|Requisito Associado | RF-006	- A aplicação deve ter uma área de login para colaboradores da ONG. |
+| Objetivo do Teste 	| Certificar que os voluntários conseguem logar. |
+| Passos 	| - Acessar a página home através do link da aplicação <br> - Na página home, clicar no icone de usuário na parte superior direita <br> - Realizar o login. <br> |
+|Critério de Êxito | - O voluntário terá acesso a área logada. |
+|  	|  	|
+| Caso de Teste 	| CT-07 – Armazenamento de informações 	|
+|Requisito Associado | RF-007	- A aplicação deve ser capaz de gravar informações de roupas, doadores e usuários. |
+| Objetivo do Teste 	| Verificar se as informações foram armazenadas. |
+| Passos 	| - Acessar a página home através do link da aplicação <br> - Na página home, clicar para ver todas as peças de roupas disponíveis <br> |
+|Critério de Êxito | - As informações cadastradas poderão ser acessadas. |
+|  	|  	|
+| Caso de Teste 	| CT-08 – Cadastro de candidatos ao voluntariado |
+|Requisito Associado | RF-008	- A aplicação deve conter uma área com um formulário para cadastro de candidatos para voluntariado. |
+| Objetivo do Teste 	| Verificar se o candidato foi cadastrado. |
+| Passos 	| - Acessar a página home através do link da aplicação <br> - Na página home, preencher os campos na área "Quero ser um voluntário(a)" e clicar no botão "enviar" <br> |
+|Critério de Êxito | - Será exibida uma mensagem de sucesso. |
 
  
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
 > - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
+> - [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
 > - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
 > - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
