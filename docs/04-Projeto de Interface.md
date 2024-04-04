@@ -15,7 +15,7 @@ O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem internamen
 
 ![Exemplo de Diagrama de Fluxo](img/diagramafluxo2.jpg)
 
-![Diagrama de Fluxo](https://lucid.app/publicSegments/view/be123064-7731-4d41-879d-2d3f4edfcfce/image.jpeg)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-cabide-solidario/assets/144864588/94c7bdf0-52b1-496d-a655-5698daa30d77)
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
 
