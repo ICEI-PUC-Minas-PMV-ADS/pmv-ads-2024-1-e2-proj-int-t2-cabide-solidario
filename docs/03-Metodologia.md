@@ -60,7 +60,9 @@ As ferramentas empregadas no projeto são:
 - `Ferramentas de comunicação`: Whatsapp e Teams;
 - `Ferramenta de desenho de tela`: MarvelApp;
 - `Ferramenta de desenho de Diagrama de Casos de Uso`: LucidApp;
-- `Ferramenta de desenho de Diagrama de Classes`: 
+- `Ferramenta de desenho de Diagrama de Classes`: LucidApp;
+- `Ferramenta de desenho do Diagrama de Entidades e Relacionamentos`: draw.io;
+- `Ferramenta de desenho do Projeto da Base de Dados`: ;
 
 O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas facilitam a interação e troca de informações sobre o andamento do projeto. Por fim, para criar
 diagramas utilizamos as ferramenta mencionadas por melhor captar as necessidades da nossa solução.

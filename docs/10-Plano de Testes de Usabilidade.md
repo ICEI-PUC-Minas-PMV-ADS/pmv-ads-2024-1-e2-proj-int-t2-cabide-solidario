@@ -2,14 +2,26 @@
 
 Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
 
-Um plano de teste de usabilidade deverá conter: o detalhamento dos objetivos (em função dos requisitos levantados/implementados), dos critérios que serão utilizados para a seleção dos participantes, dos procedimentos a serem adotados pelos condutores de teste (por exemplo: os testes serão presenciais ou remotos? o método será observação direta, medição ou avaliação?), das tarefas a serem executadas, dos dados a serem coletados (quantidade de cliques, número de erros, tempo etc.), a ordem de execução das tarefas e das etapas da sessão de teste, recursos demandados, métricas coletadas etc.
+## Objetivo
 
-Para cada voluntário do teste, é fundamental coletar e apresentar todos os dados/métricas previamente definidos, mas não se esqueça: atendendo à LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível, que permita identificar o voluntário, deverá ser apresentado).
+Os testes de usabilidade têm o objetivo de verificar o funcionamento da aplicação considerando o aspecto usabilidade, ou seja, como o usuário interage com a aplicação para executar determinadas tarefas propostas.
 
-As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
+Deverá ser verificado se o usuário "beneficiário" encontra dificuldades na interação com a aplicação para realizar um pedido de roupas através da aplicação, assim como um usuário do tipo "voluntário" para cadastrar/remover/editar os itens, obter relatório de estoque, visualizar as informações de candidatos e dar baixa em itens não mais disponíveis.
 
-> **Links Úteis**:
-> - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
-> - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
-> - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+## Participantes
+
+Os testes serão executados por dois membros da equipe de desenvolvimento para simplificação do processo, de forma remota, em que os mesmos executaram as tarefas propostas e farão anotações sobre suas experiências através da medição dos tempos de execução no uso da aplicação, nº de cliques para cada tarefa e quantidade de erros encontrados .
+
+## Tarefas propostas
+
+As tarefas propostas para o teste são:
+
+* Acessar a aplicação e navegar pela tela principal, visualizando suas informações;
+* Acessar o catálogo de roupas com o intuito de realizar um pedido, procedendo a inclusão/remoção no carrinho e finalização do pedido;
+* Acessar a aplicação como voluntário e fazer o cadastro/login, cadastro/exclusão/edição de itens do catálogo, obtem o relatório de estoque, visualiza lista de candidatos para aprovação/reprovação.
+
+O participante deverá anotar o tempo gasto para a realização de cada tarefa, o nº de cliques realizado e o nº e natureza dos erros encontrados no caminho.
+
+## Finalização do teste
+
+Ao final do teste, serão coletados os dados/métricas previamente definidos para avaliação e conduzir as providências para otimização da aplicação no aspecto usabilidade.
