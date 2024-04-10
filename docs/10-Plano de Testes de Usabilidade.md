@@ -20,7 +20,10 @@ As tarefas propostas para o teste são:
 * Acessar o catálogo de roupas com o intuito de realizar um pedido, procedendo a inclusão/remoção no carrinho e finalização do pedido;
 * Acessar a aplicação como voluntário e fazer o cadastro/login, cadastro/exclusão/edição de itens do catálogo, obtem o relatório de estoque, visualiza lista de candidatos para aprovação/reprovação.
 
-O participante deverá anotar o tempo gasto para a realização de cada tarefa, o nº de cliques realizado e o nº e natureza dos erros encontrados no caminho.
+O participante deverá preencher o questionário abaixo para que seja possível a avaliação da usabilidade da aplicação.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-cabide-solidario/assets/144265096/79cd06b1-3413-4759-8fb8-a069ec20d4c7)
+
 
 ## Finalização do teste
 
