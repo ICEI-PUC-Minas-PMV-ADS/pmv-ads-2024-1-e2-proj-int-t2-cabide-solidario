@@ -10,7 +10,7 @@ Deverá ser verificado se o usuário "beneficiário" encontra dificuldades na in
 
 ## Participantes
 
-Os testes serão executados por dois membros da equipe de desenvolvimento para simplificação do processo, de forma remota, em que os mesmos executaram as tarefas propostas e farão anotações sobre suas experiências através da medição dos tempos de execução no uso da aplicação, nº de cliques para cada tarefa e quantidade de erros encontrados .
+Os testes serão executados por duas pessoas que não façam parte da equipe de desenvolvimento para uma avaliação livre de vícios, de forma remota, em que os mesmos executarão as tarefas propostas e farão anotações sobre suas experiências através de um questionário de avaliação da usuabilidade através de escalas de medição, assim como medição dos tempos de execução no uso da aplicação, nº de cliques para cada tarefa e quantidade de erros encontrados.
 
 ## Tarefas propostas
 
