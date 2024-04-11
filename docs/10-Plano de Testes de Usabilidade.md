@@ -27,4 +27,4 @@ O participante deverá preencher o questionário abaixo para que seja possível 
 
 ## Finalização do teste
 
-Ao final do teste, serão coletados os dados/métricas previamente definidos para avaliação e conduzir as providências para otimização da aplicação no aspecto usabilidade.
+Ao final do teste, serão coletados os dados/métricas previamente definidos para avaliação e conduzir as providências para otimização da aplicação no aspecto usabilidade. Atendendo à LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível, que permita identificar os participantes, será apresentado.
