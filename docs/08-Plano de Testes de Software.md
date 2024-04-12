@@ -55,12 +55,3 @@ Por exemplo:
 | Objetivo do Teste 	| Verificar se o candidato foi cadastrado. |
 | Passos 	| - Acessar a página home através do link da aplicação <br> - Na página home, preencher os campos na área "Quero ser um voluntário(a)" e clicar no botão "enviar" <br> |
 |Critério de Êxito | - Será exibida uma mensagem de sucesso. |
-
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> - [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
