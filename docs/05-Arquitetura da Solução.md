@@ -7,8 +7,8 @@ Definição de como o software é estruturado em termos dos componentes que faze
 ## Diagrama de Classes
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
+
 ![Diagrama de Classes - Cabide Solidário](https://lucid.app/publicSegments/view/4687a462-7c83-40b7-8882-21bc4d470da1/image.png)
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
 
 ## Modelo ER (Projeto Conceitual)
 
@@ -16,8 +16,9 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 
 ![texto](img/DERdrawio.png)
 
-
 ## Projeto da Base de Dados
+
+O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
 
 ![Projeto de base de Dados](https://lucid.app/publicSegments/view/9c9b5b08-d1cb-4af6-855d-7304b0b3cb76/image.png)
 
