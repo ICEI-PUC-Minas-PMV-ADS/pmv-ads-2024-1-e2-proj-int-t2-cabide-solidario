@@ -14,7 +14,7 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
-![texto](img/DERdrawio.png)
+![texto](img/NovoDER.jpg)
 
 ## Projeto da Base de Dados
 
