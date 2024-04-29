@@ -1,0 +1,12 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+.ajustarPosition{
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+}
+.mainPosition{
+    flex:1;
+}

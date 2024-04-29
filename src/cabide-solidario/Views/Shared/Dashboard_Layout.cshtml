@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - cabide_solidario</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/dashboard.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/cabide_solidario.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container-fluid ajustarPosition">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg p-3 navbar-dark bg-dark justify-content-between">
+
+                <a href="#" class="navbar-brand">Cabide Solidário</a>
+                <a href="#" class="nav-item nav-link">Sair</a>
+
+            </nav>
+        </div>
+        <div class="row mainPosition">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light col-1">
+
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <div class="navbar-collapse collapse align-self-start" id="navbarMenu">
+                    <div class="navbar-nav row">
+
+                        <a asp-area="" asp-controller="RoupasDoadas" asp-action="Index" class="nav-item nav-link">Cadastrar Itens</a>
+                        <a href="#" class="nav-item nav-link">Candidatos</a>
+                        <a href="#" class="nav-item nav-link">Parceiros</a>
+
+                    </div>
+                </div>
+
+            </nav>
+            <main class="col pb-3 d-flex flex-column">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

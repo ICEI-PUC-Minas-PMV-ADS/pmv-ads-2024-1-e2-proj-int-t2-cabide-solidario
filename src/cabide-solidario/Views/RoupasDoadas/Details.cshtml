@@ -2,6 +2,7 @@
 
 @{
     ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/Dashboard_Layout.cshtml";
 }
 
 <h1>Dados do item</h1>
@@ -49,7 +50,7 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Index" class="btn btn-info">Voltar</a> |
+    <a asp-action="Index" class="btn btn-info">Voltar</a>
     <a asp-action="Edit" class="btn btn-warning" asp-route-id="@Model?.Id">Editar</a>
     
 </div>
