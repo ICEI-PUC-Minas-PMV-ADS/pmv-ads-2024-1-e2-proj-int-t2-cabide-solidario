@@ -38,13 +38,14 @@ body {
     font-size: 14px;
     line-height: 25px;
     margin:20px;
+    margin-left: 50px;
     text-align:justify;
+    font-weight:600;
 
 }
 
 .secao1-right {
     flex: 1;
-    width: 520px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,13 +58,39 @@ body {
 
 .secao3 {
     background-color: darkgoldenrod;
+
 }
 
 .secao3-title {
     text-align: center;
     text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
 }
 
-.secao3-box-area img {
+.secao3-container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin: auto;
+}
+
+.secao3-box {
+    
+}
+
+.secao3-box-area {
+    margin: 30px;
+    margin-bottom: 50px;
+    display: inline-block;
+    width: 200px;
+}
+
+.secao3-avatar {
     height: 150px;
+}
+
+.secao3-descricao {
+    text-align: center;
 }
