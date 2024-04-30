@@ -13,10 +13,57 @@ html {
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
   margin-bottom: 60px;
+}
+
+.secao1 {
+    display: flex;
+}
+
+.container-secao1 {
+    background-color: #e39282;
+    display: flex;
+}
+
+.secao1-left {
+    flex: 1;
+}
+
+.secao1-left p {
+    font-size: 14px;
+    line-height: 25px;
+    margin:20px;
+    text-align:justify;
+
+}
+
+.secao1-right {
+    flex: 1;
+    width: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao1-right img {
+     width: 280px;
+     box-shadow: 0px 5px 10px #333;
+}
+
+.secao3 {
+    background-color: darkgoldenrod;
+}
+
+.secao3-title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.secao3-box-area img {
+    height: 150px;
 }
