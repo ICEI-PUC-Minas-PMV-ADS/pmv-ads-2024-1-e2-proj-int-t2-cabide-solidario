@@ -20,30 +20,30 @@ namespace cabide_solidario.Models
         [Required(ErrorMessage = "Informe o tipo do item.")]
         public string Tipo { get; set; }
 
-        [Required(ErrorMessage = "Informe o tamanho do item.")]
-        public string Tamanho { get; set; }
+        [Required(ErrorMessage = "Selecione o tamanho do item.")]
+        public Tamanho Tamanho { get; set; }
 
         [Required(ErrorMessage = "Informe a cor do item.")]
         public string Cor { get; set; }
 
-        [Required(ErrorMessage = "Informe o genero do item.")]
-        public string Genero { get; set;}
+        [Required(ErrorMessage = "Selecione o genero do item.")]
+        public Genero Genero { get; set; }
     }
-
-    /*Estevão: coloquei algumas opções pré selecionadas mas ainda não "subi". Vamos discutir se iremos deixar os campos livres para texto (como estão agora) ou
-    se iremos fechar somente para as opções abaixo.*/
 
     public enum Genero
     {
         Feminino,
-        Masculino
+        Masculino,
+        Unissex,
+        Infantil
     }
 
     public enum Tamanho
     {
         P,
         M,
-        G
+        G,
+        GG
     }
 
 

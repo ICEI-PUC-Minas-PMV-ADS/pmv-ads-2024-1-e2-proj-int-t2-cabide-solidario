@@ -31,7 +31,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="Tamanho" class="control-label"></label>
-                <input asp-for="Tamanho" class="form-control" />
+                <select asp-for="Tamanho" class="form-control" asp-items="Html.GetEnumSelectList<Tamanho>()"></select>
                 <span asp-validation-for="Tamanho" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -41,7 +41,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="Genero" class="control-label"></label>
-                <input asp-for="Genero" class="form-control" />
+                <select asp-for="Genero" class="form-control" asp-items="Html.GetEnumSelectList<Genero>()"></select>
                 <span asp-validation-for="Genero" class="text-danger"></span>
             </div>
             <div class="form-group">

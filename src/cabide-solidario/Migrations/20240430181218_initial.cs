@@ -5,7 +5,7 @@
 namespace cabide_solidario.Migrations
 {
     /// <inheritdoc />
-    public partial class M02AddTableCandidatos : Migration
+    public partial class initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -16,7 +16,7 @@ namespace cabide_solidario.Migrations
                 type: "int",
                 nullable: false,
                 oldClrType: typeof(string),
-                oldType: "nvarchar(1)");
+                oldType: "nvarchar(max)");
 
             migrationBuilder.AlterColumn<int>(
                 name: "Genero",
@@ -25,34 +25,15 @@ namespace cabide_solidario.Migrations
                 nullable: false,
                 oldClrType: typeof(string),
                 oldType: "nvarchar(max)");
-
-            migrationBuilder.CreateTable(
-                name: "Candidatos",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Disponibilidade = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Texto_Motivacao = table.Column<string>(type: "nvarchar(max)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Candidatos", x => x.Id);
-                });
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
-                name: "Candidatos");
-
             migrationBuilder.AlterColumn<string>(
                 name: "Tamanho",
                 table: "Roupas Doadas",
-                type: "nvarchar(1)",
+                type: "nvarchar(max)",
                 nullable: false,
                 oldClrType: typeof(int),
                 oldType: "int");
