@@ -21,13 +21,17 @@ body {
   margin-bottom: 60px;
 }
 
+/* INÍCIO SEÇÃO 1*/
+
 .secao1 {
     display: flex;
+    
 }
 
 .container-secao1 {
     background-color: #e39282;
     display: flex;
+    padding: 30px;
 }
 
 .secao1-left {
@@ -41,7 +45,6 @@ body {
     margin-left: 50px;
     text-align:justify;
     font-weight:600;
-
 }
 
 .secao1-right {
@@ -56,9 +59,17 @@ body {
      box-shadow: 0px 5px 10px #333;
 }
 
-.secao3 {
-    background-color: darkgoldenrod;
 
+
+/*AQUI AINDA SERÃO INSERIDAS AS FORMATAÇÕES DA SEÇÃO 2*/
+.secao2 {
+    background-color: mediumturquoise;
+}
+
+/* INÍCIO SEÇÃO 3*/
+
+.secao3 {
+    background-color: #e39282;
 }
 
 .secao3-title {
@@ -69,28 +80,190 @@ body {
 }
 
 .secao3-container {
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    overflow: hidden;
-    margin: auto;
+
 }
 
 .secao3-box {
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .secao3-box-area {
     margin: 30px;
     margin-bottom: 50px;
-    display: inline-block;
     width: 200px;
+    text-align: center;
 }
 
 .secao3-avatar {
     height: 150px;
+    
+}
+
+.secao3-nome {
+    font-weight:800;
+}
+
+.secao3-funcao {
+    font-weight: 600;
 }
 
 .secao3-descricao {
+    text-align: justify;
+}
+
+/* INÍCIO SEÇÃO 4*/
+
+.secao4 {
+    background-color: mediumturquoise;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px
+}
+
+.secao4-left {
+    flex:1;
+    margin-right: 30px;
+}
+
+.secao4-left-title {
+
+}
+
+.secao4-left-text {
+    text-align: justify
+}
+
+.secao4-right {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.secao4-right-superior {
+    flex: 1;
+    text-align: center;
+}
+
+    .secao4-right-superior a {
+        margin-top: 15px;
+    }
+
+    .btn btn-dark btn-lg {
+    }
+
+.secao4-right-inferior {
+
+}
+
+
+/* INÍCIO SEÇÃO 5*/
+
+.secao5 {
+    background-color: #e39282;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px
+}
+
+.secao5-left {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.secao5-left-title {
+
+}
+
+.secao5-left-text {
+    text-align: justify
+}
+
+.secao5-right {
+    display: block;
+    text-align: center;
+    align-content: center;
+}
+
+    .secao5-right a {
+      
+    }
+
+/* INÍCIO SEÇÃO 6*/
+
+.secao6 {
+    background-color: ghostwhite;
+    display: flex;
+    
+}
+
+.secao6-left {
+    flex: 1;
+    text-align: center;
+    align-content: center;  
+}
+
+.secao6-left-title {
+
+}
+
+.secao6-left-images {
+     display:inline-flex;
+     flex-direction:column;
+}
+
+    .secao6-left-images img {
+        height: 150px;
+        margin-top: 15px;
+    }
+
+        .secao6-left-images img:last-child {
+            margin-bottom: 30px;
+        }
+
+.secao6-right {
+    flex: 1;
+    text-align: center;
+    align-content: center;
+}
+
+.secao6-right-title{
+
+}
+
+.secao6-right-images {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+    .secao6-right-images img {
+        height: 150px;
+        margin-top: 15px;
+    }
+
+    .secao6-right-images img:last-child {
+        margin-bottom: 30px;
+    }
+
+/* INÍCIO SEÇÃO 7*/
+
+.secao7 {
+    background-color: mediumturquoise;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    height: 300px;
+}
+
+.secao7-container {
+    background-color: lightgray;
+    align-content: center;
+    width: 600px;
+    height:150px;
+    border-radius: 10px;
+}
+
+.secao7-texto {
     text-align: center;
 }
