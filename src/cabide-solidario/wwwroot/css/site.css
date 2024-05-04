@@ -29,20 +29,20 @@ body {
 }
 
 .container-secao1 {
-    background-color: #e39282;
+    background-color: slategray;
     display: flex;
     padding: 30px;
 }
 
 .secao1-left {
     flex: 1;
+    margin-left: 50px;
+    margin: 20px;
 }
 
 .secao1-left p {
     font-size: 14px;
     line-height: 25px;
-    margin:20px;
-    margin-left: 50px;
     text-align:justify;
     font-weight:600;
 }
@@ -61,15 +61,52 @@ body {
 
 
 
-/*AQUI AINDA SERÃO INSERIDAS AS FORMATAÇÕES DA SEÇÃO 2*/
+/* INÍCIO SEÇÃO 2*/
+
 .secao2 {
-    background-color: mediumturquoise;
+    background-color: ;
+    text-align: center;
+    margin-bottom: 50px;
 }
+
+.secao2-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.secao2-container {
+    text-align: center;
+}
+
+.secao2 a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.secao2 p {
+    font-weight: 600;
+}
+
+.secao2-modelos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.secao2-modelos img {
+    height: 150px;
+}
+
+
 
 /* INÍCIO SEÇÃO 3*/
 
 .secao3 {
-    background-color: #e39282;
+    background-color: slategray;
 }
 
 .secao3-title {
@@ -116,7 +153,7 @@ body {
 /* INÍCIO SEÇÃO 4*/
 
 .secao4 {
-    background-color: mediumturquoise;
+    background-color: ;
     display: flex;
     flex-wrap: wrap;
     padding: 70px
@@ -161,7 +198,7 @@ body {
 /* INÍCIO SEÇÃO 5*/
 
 .secao5 {
-    background-color: #e39282;
+    background-color: slategray;
     display: flex;
     flex-wrap: wrap;
     padding: 70px
@@ -201,7 +238,8 @@ body {
 .secao6-left {
     flex: 1;
     text-align: center;
-    align-content: center;  
+    align-content: center;
+    background-color: #f3f2ed;
 }
 
 .secao6-left-title {
@@ -226,6 +264,7 @@ body {
     flex: 1;
     text-align: center;
     align-content: center;
+    background-color: #ffffff;
 }
 
 .secao6-right-title{
@@ -249,10 +288,10 @@ body {
 /* INÍCIO SEÇÃO 7*/
 
 .secao7 {
-    background-color: mediumturquoise;
-    display:flex;
+    background-color: slategray;
+    display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     height: 300px;
 }
 

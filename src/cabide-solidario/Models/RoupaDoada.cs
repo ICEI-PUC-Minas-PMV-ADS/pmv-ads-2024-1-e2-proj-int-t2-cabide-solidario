@@ -21,13 +21,13 @@ namespace cabide_solidario.Models
         public string Tipo { get; set; }
 
         [Required(ErrorMessage = "Selecione o tamanho do item.")]
-        public Tamanho Tamanho { get; set; }
+        public string Tamanho { get; set; }
 
         [Required(ErrorMessage = "Informe a cor do item.")]
         public string Cor { get; set; }
 
         [Required(ErrorMessage = "Selecione o genero do item.")]
-        public Genero Genero { get; set; }
+        public string Genero { get; set; }
     }
 
     public enum Genero
