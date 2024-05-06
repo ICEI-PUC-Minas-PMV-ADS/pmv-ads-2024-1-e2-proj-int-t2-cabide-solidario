@@ -9,5 +9,7 @@ namespace cabide_solidario.Models
         public DbSet<RoupaDoada> RoupasDoadas { get; set;}
 
         public DbSet<Candidato> Candidatos { get; set;}
+
+        public DbSet<Usuario> Usuarios { get; set;}
     }
 }

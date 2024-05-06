@@ -13,10 +13,296 @@ html {
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
   margin-bottom: 60px;
+}
+
+/* INÍCIO SEÇÃO 1*/
+
+.secao1 {
+    display: flex;
+    
+}
+
+.container-secao1 {
+    background-color: slategray;
+    display: flex;
+    padding: 30px;
+}
+
+.secao1-left {
+    flex: 1;
+    margin-left: 50px;
+    margin: 20px;
+}
+
+.secao1-left p {
+    font-size: 14px;
+    line-height: 25px;
+    text-align:justify;
+    font-weight:600;
+}
+
+.secao1-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao1-right img {
+     width: 280px;
+     box-shadow: 0px 5px 10px #333;
+}
+
+
+
+/* INÍCIO SEÇÃO 2*/
+
+.secao2 {
+    background-color: ;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.secao2-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.secao2-container {
+    text-align: center;
+}
+
+.secao2 a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.secao2 p {
+    font-weight: 600;
+}
+
+.secao2-modelos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.secao2-modelos img {
+    height: 150px;
+}
+
+
+
+/* INÍCIO SEÇÃO 3*/
+
+.secao3 {
+    background-color: slategray;
+}
+
+.secao3-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.secao3-container {
+
+}
+
+.secao3-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.secao3-box-area {
+    margin: 30px;
+    margin-bottom: 50px;
+    width: 200px;
+    text-align: center;
+}
+
+.secao3-avatar {
+    height: 150px;
+    
+}
+
+.secao3-nome {
+    font-weight:800;
+}
+
+.secao3-funcao {
+    font-weight: 600;
+}
+
+.secao3-descricao {
+    text-align: justify;
+}
+
+/* INÍCIO SEÇÃO 4*/
+
+.secao4 {
+    background-color: ;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px
+}
+
+.secao4-left {
+    flex:1;
+    margin-right: 30px;
+}
+
+.secao4-left-title {
+
+}
+
+.secao4-left-text {
+    text-align: justify
+}
+
+.secao4-right {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.secao4-right-superior {
+    flex: 1;
+    text-align: center;
+}
+
+    .secao4-right-superior a {
+        margin-top: 15px;
+    }
+
+    .btn btn-dark btn-lg {
+    }
+
+.secao4-right-inferior {
+
+}
+
+
+/* INÍCIO SEÇÃO 5*/
+
+.secao5 {
+    background-color: slategray;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px
+}
+
+.secao5-left {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.secao5-left-title {
+
+}
+
+.secao5-left-text {
+    text-align: justify
+}
+
+.secao5-right {
+    display: block;
+    text-align: center;
+    align-content: center;
+}
+
+    .secao5-right a {
+      
+    }
+
+/* INÍCIO SEÇÃO 6*/
+
+.secao6 {
+    background-color: ghostwhite;
+    display: flex;
+    
+}
+
+.secao6-left {
+    flex: 1;
+    text-align: center;
+    align-content: center;
+    background-color: #f3f2ed;
+}
+
+.secao6-left-title {
+
+}
+
+.secao6-left-images {
+     display:inline-flex;
+     flex-direction:column;
+}
+
+    .secao6-left-images img {
+        height: 150px;
+        margin-top: 15px;
+    }
+
+        .secao6-left-images img:last-child {
+            margin-bottom: 30px;
+        }
+
+.secao6-right {
+    flex: 1;
+    text-align: center;
+    align-content: center;
+    background-color: #ffffff;
+}
+
+.secao6-right-title{
+
+}
+
+.secao6-right-images {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+    .secao6-right-images img {
+        height: 150px;
+        margin-top: 15px;
+    }
+
+    .secao6-right-images img:last-child {
+        margin-bottom: 30px;
+    }
+
+/* INÍCIO SEÇÃO 7*/
+
+.secao7 {
+    background-color: slategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.secao7-container {
+    background-color: lightgray;
+    align-content: center;
+    width: 600px;
+    height:150px;
+    border-radius: 10px;
+}
+
+.secao7-texto {
+    text-align: center;
 }
