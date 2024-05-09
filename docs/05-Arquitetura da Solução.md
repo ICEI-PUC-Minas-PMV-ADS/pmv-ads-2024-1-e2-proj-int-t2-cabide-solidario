@@ -24,9 +24,14 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+As tecnologias utilizadas para o desenvolvimento da aplicação são:
+- Linguagem: C#, HTML e CSS;
+- IDE: Visual Studio Comunity 2022;
+- Framework: Entity e Razor;
+- Ferramentas: LucidApp, draw.io, MarvelApp, Bootstrap, SQL Server e Github;
+- Serviços web: .
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+Através do .NET 8.0 integrada a IDE Visual Studio 2022 e utilizando-se dos Frameworks Entity e Razor foram desenvolvidas as estruturas necessárias às funcionalidades e armazenamento de informações no Banco de Dados SQL server, gerando  parte visual e de interação do usuário. A navegabilidade do usuário se dá através das páginas de cada ambiente da aplicação para exercer suas respectivas funcionalidades.
 
 ## Hospedagem
 
