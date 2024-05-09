@@ -8,8 +8,9 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | tarefas.shtml / tarefas.cs / controllertarefas.cs | 
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | relatorio.shtml |
+|RF-001| A aplicação deve apresentar informações gerais da ONG, colaboradores e patrocinadores. | Home: Index.cshtml / Privacy.cshtml | 
+|RF-002| A aplicação deve disponibilizar um catálogo de todas as roupas disponíveis para doação. | RoupasDoadas: Index.cshtml |
+|RF-005| A aplicação deve permitir que os colaboradores cadastrem as informações no catálogo de itens. | RoupasDoadas: Create.cshtml / Delete.cshtml / Details.cshtml / Edit.cshtml |
 
 # Instruções de acesso
 
