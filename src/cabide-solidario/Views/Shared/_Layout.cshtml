@@ -26,8 +26,8 @@
                             <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
 
-                        @if (User.IsInRole("Admin"))
-                        {
+                        
+                        
                             <li class="nav-item">
                                 <a class="nav-link text-light" asp-area="" asp-controller="RoupasDoadas" asp-action="Index">Dashboard</a>
                             </li>
@@ -37,7 +37,7 @@
                             <li class="nav-item">
                                 <a class="nav-link text-light" asp-area="" asp-controller="Usuarios" asp-action="Index">Usuários</a>
                             </li>
-                        }
+                        
                         
                     </ul>
                     <ul class="navbar-nav">

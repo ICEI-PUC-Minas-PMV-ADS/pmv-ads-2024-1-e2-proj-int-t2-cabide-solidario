@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace cabide_solidario.Controllers
 {
-    [Authorize(Roles ="Admin")]
+    
     public class UsuariosController : Controller
     {
         private readonly AppDbContext _context;

@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace cabide_solidario.Controllers
 {
-    [Authorize]
+    
     public class RoupasDoadasController : Controller
     {
         private readonly AppDbContext _context;
