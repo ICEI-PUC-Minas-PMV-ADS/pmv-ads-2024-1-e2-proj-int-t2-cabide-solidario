@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using cabide_solidario.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace cabide_solidario.Controllers
 {
+    [Authorize]
     public class CandidatosController : Controller
     {
         private readonly AppDbContext _context;
@@ -43,6 +45,7 @@ namespace cabide_solidario.Controllers
         }
 
         // GET: Candidatos/Create
+        [AllowAnonymous]
         public IActionResult Create()
         {
             return View();
@@ -53,6 +56,7 @@ namespace cabide_solidario.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [AllowAnonymous]
         public async Task<IActionResult> Create([Bind("Id,Nome,Email,Disponibilidade,Texto_Motivacao")] Candidato candidato)
         {
             if (ModelState.IsValid)

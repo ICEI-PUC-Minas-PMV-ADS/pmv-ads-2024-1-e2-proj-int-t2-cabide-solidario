@@ -21,11 +21,17 @@ body {
   margin-bottom: 60px;
 }
 
-/* INÍCIO SEÇÃO 1*/
+.navbar-area-logo {
+    
+}
 
+.navbar-logo {
+    height:70px;
+}
+
+/* INÍCIO SEÇÃO 1*/
 .secao1 {
     display: flex;
-    
 }
 
 .container-secao1 {
