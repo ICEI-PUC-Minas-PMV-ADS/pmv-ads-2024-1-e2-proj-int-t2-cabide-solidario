@@ -2,10 +2,9 @@
 
 @{
     ViewData["Title"] = "Create";
-    Layout = "~/Views/Shared/Dashboard_Layout.cshtml";
 }
 
-<h1>Create</h1>
+<h1>Seja bem vindo(a) ao Cabide Solidário</h1>
 
 <h4>Parceiro</h4>
 <hr />
@@ -29,14 +28,11 @@
                 <span asp-validation-for="Telefone" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="btn btn-info mt-1">Voltar</a>
+                <input type="submit" value="Salvar" class="btn btn-success mt-1" />
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {
