@@ -1,9 +1,11 @@
 ﻿using cabide_solidario.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace cabide_solidario.Controllers
 {
+    
     public class RoupasDoadasController : Controller
     {
         private readonly AppDbContext _context;

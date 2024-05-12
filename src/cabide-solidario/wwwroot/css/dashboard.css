@@ -10,3 +10,11 @@
 .mainPosition{
     flex:1;
 }
+
+.navbar-logo {
+    width: 70px;
+}
+
+.navAjustes {
+    height: 80px;
+}

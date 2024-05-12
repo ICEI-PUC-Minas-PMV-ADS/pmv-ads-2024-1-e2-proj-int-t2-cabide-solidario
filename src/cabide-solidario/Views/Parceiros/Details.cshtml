@@ -1,0 +1,37 @@
+﻿@model cabide_solidario.Models.Parceiro
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/Dashboard_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Parceiro</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NomeEmpresa)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NomeEmpresa)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Telefone)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Telefone)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index" class="btn btn-info">Voltar</a>
+    <a asp-action="Edit" class="btn btn-warning" asp-route-id="@Model?.Id">Editar</a>
+</div>

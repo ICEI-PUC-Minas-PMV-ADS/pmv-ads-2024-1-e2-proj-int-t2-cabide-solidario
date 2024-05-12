@@ -11,10 +11,12 @@
 <body>
     <div class="container-fluid ajustarPosition">
         <div class="row">
-            <nav class="navbar navbar-expand-lg p-3 navbar-dark bg-dark justify-content-between">
+            <nav class="navbar navbar-expand-lg p-3 navbar-dark bg-dark justify-content-between navAjustes">
 
-                <a href="#" class="navbar-brand">Cabide Solidário</a>
-                <a href="#" class="nav-item nav-link">Sair</a>
+                <div class="navbar-area-logo">
+                    <img class="navbar-logo" src="/css/logo.png" alt="Alternate Text" />
+                </div>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="nav-item nav-link">Sair</a>
 
             </nav>
         </div>
@@ -31,8 +33,8 @@
                     <div class="navbar-nav row">
 
                         <a asp-area="" asp-controller="RoupasDoadas" asp-action="Index" class="nav-item nav-link">Cadastrar Itens</a>
-                        <a href="#" class="nav-item nav-link">Candidatos</a>
-                        <a href="#" class="nav-item nav-link">Parceiros</a>
+                        <a asp-area="" asp-controller="Candidatos" asp-action="Index" class="nav-item nav-link">Candidatos</a>
+                        <a asp-area="" asp-controller="Parceiros" asp-action="Index" class="nav-item nav-link">Parceiros</a>
 
                     </div>
                 </div>

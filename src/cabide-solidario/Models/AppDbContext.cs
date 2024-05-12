@@ -11,5 +11,8 @@ namespace cabide_solidario.Models
         public DbSet<Candidato> Candidatos { get; set;}
 
         public DbSet<Usuario> Usuarios { get; set;}
+
+        public DbSet<Parceiro> Parceiros { get; set; }
+
     }
 }
