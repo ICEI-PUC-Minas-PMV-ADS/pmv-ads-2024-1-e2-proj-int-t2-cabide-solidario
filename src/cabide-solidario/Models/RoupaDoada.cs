@@ -21,16 +21,16 @@ namespace cabide_solidario.Models
         public string Tipo { get; set; }
 
         [Required(ErrorMessage = "Selecione o tamanho do item.")]
-        public string Tamanho { get; set; }
+        public tipoTamanho Tamanho { get; set; }
 
         [Required(ErrorMessage = "Informe a cor do item.")]
         public string Cor { get; set; }
 
         [Required(ErrorMessage = "Selecione o genero do item.")]
-        public string Genero { get; set; }
+        public tipoGenero Genero { get; set; }
     }
 
-    public enum Genero
+    public enum tipoGenero
     {
         Feminino,
         Masculino,
@@ -38,7 +38,7 @@ namespace cabide_solidario.Models
         Infantil
     }
 
-    public enum Tamanho
+    public enum tipoTamanho
     {
         P,
         M,

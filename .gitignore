@@ -3,3 +3,5 @@
 ################################################################################
 
 /.vs
+/src/cabide-solidario/Migrations/20240509205051_initial.cs
+/src/cabide-solidario/Migrations/20240509205051_initial.Designer.cs

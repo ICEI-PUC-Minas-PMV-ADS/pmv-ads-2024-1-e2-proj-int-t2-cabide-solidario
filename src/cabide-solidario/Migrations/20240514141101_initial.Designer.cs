@@ -11,7 +11,7 @@ using cabide_solidario.Models;
 namespace cabide_solidario.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240510215604_initial")]
+    [Migration("20240514141101_initial")]
     partial class initial
     {
         /// <inheritdoc />
@@ -53,6 +53,30 @@ namespace cabide_solidario.Migrations
                     b.ToTable("Candidatos");
                 });
 
+            modelBuilder.Entity("cabide_solidario.Models.Parceiro", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NomeEmpresa")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Telefone")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Parceiros");
+                });
+
             modelBuilder.Entity("cabide_solidario.Models.RoupaDoada", b =>
                 {
                     b.Property<int>("Id")
@@ -69,17 +93,15 @@ namespace cabide_solidario.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Genero")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Genero")
+                        .HasColumnType("int");
 
                     b.Property<string>("NomeItem")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Tamanho")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Tamanho")
+                        .HasColumnType("int");
 
                     b.Property<string>("Tipo")
                         .IsRequired()
