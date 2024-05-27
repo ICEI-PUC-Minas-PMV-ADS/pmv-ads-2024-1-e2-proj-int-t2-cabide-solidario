@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using cabide_solidario.Infrastructure.Validation;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Security.Principal;
 
@@ -26,6 +27,10 @@ namespace cabide_solidario.Models
         [Required(ErrorMessage = "Selecione o genero do item.")]
         public tipoGenero Genero { get; set; }
         public string Imagem { get; set; }
+
+        [NotMapped]
+        [FileExtension]
+        public IFormFile ImageUpload { get; set; }
     }
 
     public enum tipoGenero

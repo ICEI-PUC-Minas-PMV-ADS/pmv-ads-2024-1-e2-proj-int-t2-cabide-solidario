@@ -11,7 +11,7 @@ using cabide_solidario.Models;
 namespace cabide_solidario.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240527143208_Initial")]
+    [Migration("20240527181433_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -19,7 +19,7 @@ namespace cabide_solidario.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.4")
+                .HasAnnotation("ProductVersion", "8.0.5")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
