@@ -20,6 +20,12 @@ namespace cabide_solidario.Controllers
 
             return View(dados);
         }
+        public async Task<IActionResult> Catalogo()
+        {
+            var dados = await _context.RoupasDoadas.ToListAsync();
+
+            return View(dados);
+        }
 
         public IActionResult Create()
         {
