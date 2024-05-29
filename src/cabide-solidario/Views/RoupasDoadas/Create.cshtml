@@ -11,7 +11,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Create" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="NomeItem" class="control-label"></label>
@@ -22,11 +22,6 @@
                 <label asp-for="Doador" class="control-label"></label>
                 <input asp-for="Doador" class="form-control" />
                 <span asp-validation-for="Doador" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Tipo" class="control-label"></label>
-                <input asp-for="Tipo" class="form-control" />
-                <span asp-validation-for="Tipo" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Tamanho" class="control-label"></label>
@@ -44,6 +39,12 @@
                 <span asp-validation-for="Genero" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="Imagem" class="control-label"></label>
+                <input asp-for="ImageUpload" class="form-control" />
+                <img id="imgpreview" class="pt-2" />
+                <span asp-validation-for="ImageUpload" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <a asp-action="Index" class="btn btn-info mt-2">Voltar</a>
                 <input type="submit" value="Cadastrar" class="btn btn-success mt-2" />
             </div>
@@ -53,4 +54,9 @@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        $("#ImageUpload").change(function () {
+            readURL(this);
+        });
+    </script>
 }

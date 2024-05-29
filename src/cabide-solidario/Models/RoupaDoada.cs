@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using cabide_solidario.Infrastructure.Validation;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Security.Principal;
 
@@ -17,9 +18,6 @@ namespace cabide_solidario.Models
         [Required(ErrorMessage = "Informe o nome do doador.")]
         public string Doador { get; set; }
 
-        [Required(ErrorMessage = "Informe o tipo do item.")]
-        public string Tipo { get; set; }
-
         [Required(ErrorMessage = "Selecione o tamanho do item.")]
         public tipoTamanho Tamanho { get; set; }
 
@@ -28,6 +26,11 @@ namespace cabide_solidario.Models
 
         [Required(ErrorMessage = "Selecione o genero do item.")]
         public tipoGenero Genero { get; set; }
+        public string Imagem { get; set; }
+
+        [NotMapped]
+        [FileExtension]
+        public IFormFile ImageUpload { get; set; }
     }
 
     public enum tipoGenero

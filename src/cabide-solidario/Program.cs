@@ -1,6 +1,7 @@
 using cabide_solidario.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
+using ShoppingCart.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -47,5 +48,8 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+var context = app.Services.CreateScope().ServiceProvider.GetRequiredService<AppDbContext>();
+SeedData.SeedDatabase(context);
 
 app.Run();

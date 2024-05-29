@@ -1,0 +1,24 @@
+﻿@model IEnumerable<cabide_solidario.Models.RoupaDoada>
+@{
+    ViewData["Title"] = "Catálogo de roupas";
+}
+
+<h1>Catálogo de roupas</h1>
+
+<div class="row">
+
+    @foreach (var item in Model)
+    {
+        <div class="col-4 card me-2 mt-2" style="width: 18rem;">
+            <img src="~/Produtos/@item.Imagem" class="card-img-top" alt="Alternate Text" />
+            <div class="card-body align-content-end">
+                <h5 class="card-title">@item.NomeItem</h5>
+                <p class="card-text">
+                    @Html.Raw(item.Genero)
+                </p>
+                <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+            </div>
+        </div>
+    }
+
+</div>

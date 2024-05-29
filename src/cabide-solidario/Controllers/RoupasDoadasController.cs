@@ -9,12 +9,20 @@ namespace cabide_solidario.Controllers
     public class RoupasDoadasController : Controller
     {
         private readonly AppDbContext _context;
-        public RoupasDoadasController(AppDbContext context) 
+        private readonly IWebHostEnvironment _webHostEnvironment;
+        public RoupasDoadasController(AppDbContext context, IWebHostEnvironment webHostEnvironment) 
         {
             _context = context;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         public async Task<IActionResult> Index()
+        {
+            var dados = await _context.RoupasDoadas.ToListAsync();
+
+            return View(dados);
+        }
+        public async Task<IActionResult> Catalogo()
         {
             var dados = await _context.RoupasDoadas.ToListAsync();
 
@@ -31,6 +39,19 @@ namespace cabide_solidario.Controllers
         {
             if (ModelState.IsValid)
             {
+                if (roupaDoada.ImageUpload != null)
+                {
+                    string uploadsDir = Path.Combine(_webHostEnvironment.WebRootPath, "Produtos");
+                    string imageName = Guid.NewGuid().ToString() + "_" + roupaDoada.ImageUpload.FileName;
+
+                    string filePath = Path.Combine(uploadsDir, imageName);
+
+                    FileStream fs = new FileStream(filePath, FileMode.Create);
+                    await roupaDoada.ImageUpload.CopyToAsync(fs);
+                    fs.Close();
+
+                    roupaDoada.Imagem = imageName;
+                }
                 _context.RoupasDoadas.Add(roupaDoada);
                 await _context.SaveChangesAsync();
                 return RedirectToAction("Index");
@@ -62,6 +83,7 @@ namespace cabide_solidario.Controllers
             {
                 _context.RoupasDoadas.Update(roupaDoada);
                 await _context.SaveChangesAsync();
+                TempData["Success"] = "O Produto foi adicionado";
                 return RedirectToAction("Index");
             }
 
