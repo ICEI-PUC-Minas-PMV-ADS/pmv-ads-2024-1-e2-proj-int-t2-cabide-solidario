@@ -11,15 +11,15 @@ using cabide_solidario.Models;
 namespace cabide_solidario.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240514141101_initial")]
-    partial class initial
+    [Migration("20240529132039_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.4")
+                .HasAnnotation("ProductVersion", "8.0.5")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -96,16 +96,15 @@ namespace cabide_solidario.Migrations
                     b.Property<int>("Genero")
                         .HasColumnType("int");
 
+                    b.Property<string>("Imagem")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("NomeItem")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Tamanho")
                         .HasColumnType("int");
-
-                    b.Property<string>("Tipo")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
