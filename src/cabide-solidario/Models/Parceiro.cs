@@ -14,6 +14,6 @@ namespace cabide_solidario.Models
         [Required(ErrorMessage = "Informe o edereço de Email")]
         public string Email { get; set; }
         [Required(ErrorMessage = "Informe o Telefone")]
-        public int Telefone { get; set; }
+        public string Telefone { get; set; }
     }
 }

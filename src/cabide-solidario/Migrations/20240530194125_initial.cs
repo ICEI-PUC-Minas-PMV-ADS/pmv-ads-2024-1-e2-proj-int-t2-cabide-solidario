@@ -5,7 +5,7 @@
 namespace cabide_solidario.Migrations
 {
     /// <inheritdoc />
-    public partial class Initial : Migration
+    public partial class initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -34,7 +34,7 @@ namespace cabide_solidario.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     NomeEmpresa = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Telefone = table.Column<int>(type: "int", nullable: false)
+                    Telefone = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {

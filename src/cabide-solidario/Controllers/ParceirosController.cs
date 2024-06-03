@@ -59,7 +59,8 @@ namespace cabide_solidario.Controllers
             {
                 _context.Add(parceiro);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                //return RedirectToAction(nameof(Index));
+                return RedirectToAction("Index", "Home");
             }
             return View(parceiro);
         }

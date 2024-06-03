@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace cabide_solidario.Controllers
 {
-    
+    [Authorize]
     public class CandidatosController : Controller
     {
         private readonly AppDbContext _context;

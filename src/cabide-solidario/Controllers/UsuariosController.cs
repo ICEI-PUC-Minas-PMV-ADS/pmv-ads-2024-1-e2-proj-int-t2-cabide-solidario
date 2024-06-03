@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace cabide_solidario.Controllers
 {
-    
+    [Authorize(Roles = "Admin")]
     public class UsuariosController : Controller
     {
         private readonly AppDbContext _context;
@@ -45,10 +45,36 @@ namespace cabide_solidario.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> Login(Usuario usuario)
         {
-            var dados = await _context.Usuarios
-                .FindAsync(usuario.Id);
+            // Verificação especial para o usuário "ADMIN"
+            if (usuario.Nome == "ADMIN" && usuario.Senha == "ADMIN")
+            {
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Name, "ADMIN"),
+                    new Claim(ClaimTypes.NameIdentifier, "999"),
+                    new Claim(ClaimTypes.Role, "Admin")
+                };
 
-            if(dados == null)
+                var usuarioIdentity = new ClaimsIdentity(claims, "login");
+                ClaimsPrincipal principal = new ClaimsPrincipal(usuarioIdentity);
+
+                var props = new AuthenticationProperties
+                {
+                    AllowRefresh = true,
+                    ExpiresUtc = DateTime.UtcNow.ToLocalTime().AddHours(8),
+                    IsPersistent = true,
+                };
+
+                await HttpContext.SignInAsync(principal, props);
+
+                return Redirect("/");
+            }
+
+            // Busca do usuário pelo Nome no banco de dados
+            var dados = await _context.Usuarios
+                .FirstOrDefaultAsync(u => u.Nome == usuario.Nome);
+
+            if (dados == null)
             {
                 ViewBag.Message = "Usuário e/ou senha inválidos";
                 return View();

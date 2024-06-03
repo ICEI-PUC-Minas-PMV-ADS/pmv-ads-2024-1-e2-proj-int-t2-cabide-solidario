@@ -11,8 +11,8 @@ using cabide_solidario.Models;
 namespace cabide_solidario.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240527181433_Initial")]
-    partial class Initial
+    [Migration("20240530194125_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -69,8 +69,9 @@ namespace cabide_solidario.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Telefone")
-                        .HasColumnType("int");
+                    b.Property<string>("Telefone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
