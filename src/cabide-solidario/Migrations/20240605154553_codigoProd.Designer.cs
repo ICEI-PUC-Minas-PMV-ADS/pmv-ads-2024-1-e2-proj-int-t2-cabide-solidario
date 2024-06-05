@@ -11,13 +11,8 @@ using cabide_solidario.Models;
 namespace cabide_solidario.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-<<<<<<<< HEAD:src/cabide-solidario/Migrations/20240530194125_initial.Designer.cs
-    [Migration("20240530194125_initial")]
-    partial class initial
-========
-    [Migration("20240529132039_Initial")]
-    partial class Initial
->>>>>>>> 537efefc487aec2a5f1a6ad26e60b5f54f20ba62:src/cabide-solidario/Migrations/20240529132039_Initial.Designer.cs
+    [Migration("20240605154553_codigoProd")]
+    partial class codigoProd
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -90,6 +85,10 @@ namespace cabide_solidario.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("CodigoProduto")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Cor")
                         .IsRequired()

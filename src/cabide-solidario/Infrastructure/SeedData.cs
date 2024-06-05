@@ -15,75 +15,83 @@ namespace ShoppingCart.Infrastructure
                 context.RoupasDoadas.AddRange(
                         new RoupaDoada
                         {
-                            NomeItem = "Apples",
+                            NomeItem = "Camisa",
                             Doador = "Gabriel",
                             Tamanho = 0,
-                            Cor = "verde",
+                            Cor = "Vermelha",
                             Genero = 0,
-                            Imagem = "apples.jpg"
+                            Imagem = "redshirt.jpeg",
+                            CodigoProduto = "25364"
                         },
                         new RoupaDoada
                         {
-                            NomeItem = "Apples",
+                            NomeItem = "Jaqueta",
                             Doador = "Abraão",
                             Tamanho = 0,
-                            Cor = "verde",
+                            Cor = "Preto",
                             Genero = (tipoGenero)1,
-                            Imagem = "bananas.jpg"
+                            Imagem = "jaqueta.jpg",
+                            CodigoProduto = "25489"
                         },
                         new RoupaDoada
                         {
-                            NomeItem = "Apples",
+                            NomeItem = "Camisa",
                             Doador = "Clarence",
                             Tamanho = 0,
-                            Cor = "verde",
+                            Cor = "Azul",
                             Genero = 0,
-                            Imagem = "watermelon.jpg"
+                            Imagem = "blueshirt.jpeg",
+                            CodigoProduto = "85695"
                         },
                         new RoupaDoada
                         {
-                            NomeItem = "Apples",
+                            NomeItem = "Calça",
                             Doador = "Estevão",
                             Tamanho = 0,
-                            Cor = "verde",
+                            Cor = "Azul",
                             Genero = 0,
-                            Imagem = "grapefruit.jpg"
+                            Imagem = "calcajeans.jpg",
+                            CodigoProduto = "87415"
                         },
                         new RoupaDoada
                         {
-                            NomeItem = "Apples",
+                            NomeItem = "Camisa",
                             Doador = "Gabriel",
                             Tamanho = 0,
-                            Cor = "verde",
+                            Cor = "Branco",
                             Genero = 0,
-                            Imagem = "white shirt.jpg"
+                            Imagem = "white shirt.jpg",
+                            CodigoProduto = "96521"
                         },
                         new RoupaDoada
                         {
-                            NomeItem = "Apples",
+                            NomeItem = "Camisa",
                             Doador = "Abraão",
                             Tamanho = 0,
-                            Cor = "verde",
+                            Cor = "Preto",
                             Genero = 0,
-                            Imagem = "black shirt.jpg"
+                            Imagem = "black shirt.jpg",
+                            CodigoProduto = "54123"
                         },
                         new RoupaDoada
                         {
-                            NomeItem = "Apples",
+                            NomeItem = "Camisa",
                             Doador = "Clarence",
                             Tamanho = 0,
-                            Cor = "verde",
+                            Cor = "Amarelo",
                             Genero = 0,
-                            Imagem = "yellow shirt.jpg"
+                            Imagem = "yellow shirt.jpg",
+                            CodigoProduto = "65418"
                         },
                         new RoupaDoada
                         {
-                            NomeItem = "Apples",
+                            NomeItem = "Camisa",
                             Doador = "Estevão",
                             Tamanho = 0,
-                            Cor = "verde",
+                            Cor = "Cinza",
                             Genero = 0,
-                            Imagem = "grey shirt.jpg"
+                            Imagem = "grey shirt.jpg",
+                            CodigoProduto = "41572"
                         }
                 );
 

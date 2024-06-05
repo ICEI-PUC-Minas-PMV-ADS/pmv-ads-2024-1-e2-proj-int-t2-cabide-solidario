@@ -5,7 +5,7 @@
 namespace cabide_solidario.Migrations
 {
     /// <inheritdoc />
-    public partial class initial : Migration
+    public partial class codigoProd : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -52,7 +52,8 @@ namespace cabide_solidario.Migrations
                     Tamanho = table.Column<int>(type: "int", nullable: false),
                     Cor = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Genero = table.Column<int>(type: "int", nullable: false),
-                    Imagem = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    Imagem = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    CodigoProduto = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {

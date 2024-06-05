@@ -27,6 +27,9 @@ namespace cabide_solidario.Models
         [Required(ErrorMessage = "Selecione o genero do item.")]
         public tipoGenero Genero { get; set; }
         public string Imagem { get; set; }
+        [Required(ErrorMessage = "Informe o código do produto")]
+        [Display(Name = "Código produto")]
+        public string CodigoProduto { get; set; }
 
         [NotMapped]
         [FileExtension]
