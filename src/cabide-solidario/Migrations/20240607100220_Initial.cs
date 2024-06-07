@@ -5,7 +5,7 @@
 namespace cabide_solidario.Migrations
 {
     /// <inheritdoc />
-    public partial class codigoProd : Migration
+    public partial class Initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

@@ -11,8 +11,8 @@ using cabide_solidario.Models;
 namespace cabide_solidario.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240605154553_codigoProd")]
-    partial class codigoProd
+    [Migration("20240607100220_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
