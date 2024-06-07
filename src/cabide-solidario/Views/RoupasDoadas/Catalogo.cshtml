@@ -1,9 +1,29 @@
 ﻿@model IEnumerable<cabide_solidario.Models.RoupaDoada>
 @{
     ViewData["Title"] = "Catálogo de roupas";
+
 }
 
 <h1>Catálogo de roupas</h1>
+
+
+<form method="get" asp-controller="RoupasDoadas" asp-action="Catalogo">
+    <div class="form-group">
+        <label for="generoSelect">Filtrar por gênero:</label>
+        <select name="genero" id="generoSelect" class="form-control">
+            <option value="">Todos</option>
+            <option value="Feminino">Feminino</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Unissex">Unissex</option>
+            <option value="Infantil">Infantil</option>
+        </select>
+    </div>
+    <div class="form-group mt-2">
+        <label for="codigoProdutoInput">Buscar por código do produto:</label>
+        <input type="text" name="codigoProduto" id="codigoProdutoInput" class="form-control" value="@ViewData["CurrentFilterCodigoProduto"]" />
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">Filtrar</button>
+</form>
 
 <div class="row">
 

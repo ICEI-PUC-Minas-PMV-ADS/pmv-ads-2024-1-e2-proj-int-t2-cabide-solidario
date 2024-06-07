@@ -10,7 +10,7 @@ namespace cabide_solidario.Controllers
     {
         private readonly AppDbContext _context;
         private readonly IWebHostEnvironment _webHostEnvironment;
-        public RoupasDoadasController(AppDbContext context, IWebHostEnvironment webHostEnvironment) 
+        public RoupasDoadasController(AppDbContext context, IWebHostEnvironment webHostEnvironment)
         {
             _context = context;
             _webHostEnvironment = webHostEnvironment;
@@ -23,13 +23,26 @@ namespace cabide_solidario.Controllers
             return View(dados);
         }
         [AllowAnonymous]
-        public async Task<IActionResult> Catalogo()
+        public async Task<IActionResult> Catalogo(string genero, string codigoProduto)
         {
-            var dados = await _context.RoupasDoadas.ToListAsync();
+            ViewData["CurrentFilterGenero"] = genero;
+            ViewData["CurrentFilterCodigoProduto"] = codigoProduto;
 
-            return View(dados);
+            var roupas = from r in _context.RoupasDoadas
+                         select r;
+
+            if (!String.IsNullOrEmpty(genero) && Enum.TryParse<tipoGenero>(genero, out var generoEnum))
+            {
+                roupas = roupas.Where(r => r.Genero == generoEnum);
+            }
+
+            if (!String.IsNullOrEmpty(codigoProduto))
+            {
+                roupas = roupas.Where(r => r.CodigoProduto.Contains(codigoProduto));
+            }
+
+            return View(await roupas.ToListAsync());
         }
-
         public IActionResult Create()
         {
             return View();
@@ -56,8 +69,8 @@ namespace cabide_solidario.Controllers
                 _context.RoupasDoadas.Add(roupaDoada);
                 await _context.SaveChangesAsync();
                 return RedirectToAction("Index");
-            }    
-            
+            }
+
             return View(roupaDoada);
         }
 
@@ -75,7 +88,7 @@ namespace cabide_solidario.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Edit(int id, RoupaDoada roupaDoada )
+        public async Task<IActionResult> Edit(int id, RoupaDoada roupaDoada)
         {
             if (id != roupaDoada.Id)
                 return NotFound();
@@ -98,7 +111,7 @@ namespace cabide_solidario.Controllers
 
             var dados = await _context.RoupasDoadas.FindAsync(id);
 
-            if(dados == null)
+            if (dados == null)
                 return NotFound();
 
             return View(dados);
