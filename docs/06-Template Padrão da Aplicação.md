@@ -18,7 +18,7 @@ Para a criação do logotipo do site foi utilizada a cor rosa com fundo branco p
 
 ![Logotipo da aplicação web Cabide Solidário](../docs/img/logo.png)
 
-Figura 12 - Logotipo da aplicação web Cabide Solidário
+Figura 12: Logotipo da aplicação web Cabide Solidário.
 
 ## Tela inicial (home) do site
 
@@ -26,13 +26,4 @@ Exibe a página inicial da aplicação, com um texto introdutório e informaçõ
 
 ![Home da aplicação web Cabide Solidário](../docs/img/print_home.png)
 
-Figura 13 - Tela home da aplicação
-
-
-
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+Figura 13: Tela home da aplicação.
