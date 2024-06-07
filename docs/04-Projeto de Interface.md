@@ -12,6 +12,7 @@ O propósito deste diagrama é apresentar o estudo do fluxo de interação do us
 O diagrama de fluxo foi desenvolvido com “boxes” que possuem internamente a indicação dos principais elementos de interface e funcionalidades, tais como editar, pesquisar, cadastrar - e a conexão entre esses boxes a partir do processo de interação. 
 
 ![Diagrama de Fluxo](https://lucid.app/publicSegments/view/ae622421-0d1b-4e8f-af0a-f58e70e17c4c/image.png)
+Figura 04: Diagrama de Fluxo.
 
 
 ## Wireframes
@@ -29,7 +30,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 
 
 
 <figure> 
-  <figcaption>Figura W1 - Estrutura padrão do site
+  <figcaption>Figura 05: Estrutura padrão do site.
 </figure> 
 <hr>
 
@@ -40,7 +41,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 
 
 
 <figure> 
-  <figcaption>Figura W2 - Tela home page
+  <figcaption>Figura 06: Tela home page.
 </figure> 
 <hr>
 
@@ -51,18 +52,17 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 
 
 
 <figure> 
-  <figcaption>Figura W3 - Página do voluntário
+  <figcaption>Figura 07: Página do voluntário.
 </figure> 
 <hr>
 
 <h3><b>Tela - Catálogo de roupas</b></h3>
-<p>A tela do catálogo de roupas tem uma barra lateral à esquerda para filtrar itens. Ao centro, todas as roupas em estoque disponíveis. Na lateral direita, um carrinho que contempla os itens selecionados e um botão para fechar o pedido.
-Esta tela ainda exibe um modal para finalizar o pedido.</p>
+<p>A tela do catálogo de roupas tem uma barra lateral à esquerda para filtrar itens. Ao centro, todas as roupas em estoque disponíveis.</p>
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-cabide-solidario/assets/144265096/0e00b9f1-43e7-4148-b675-96bb28f7b357)
 
 
 <figure> 
-  <figcaption>Figura W4 - Catálogo de roupas
+  <figcaption>Figura 08: Catálogo de roupas.
 </figure> 
 <hr>
