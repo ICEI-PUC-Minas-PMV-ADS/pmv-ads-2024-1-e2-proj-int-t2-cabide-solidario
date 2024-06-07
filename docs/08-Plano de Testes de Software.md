@@ -17,41 +17,35 @@ Por exemplo:
 | Caso de Teste 	| CT-02 – Acesso ao catálogo de roupas	|
 |Requisito Associado | RF-002	- A aplicação deve disponibilizar um catálogo de todas as roupas disponíveis para doação. |
 | Objetivo do Teste 	| Exibir para o usuário todos os itens disponíveis no catálogo. |
-| Passos 	| - Acessar a página home através do link da aplicação <br> - Na página home, clicar para ver todas as peças de roupas disponíveis <br> - Rolar a página para visualizar todas os itens disponíveis no catálogo <br> |
+| Passos 	| - Acessar a página home através do link da aplicação <br> - Na página home, clicar em "ver todas as peças disponíveis" na seção "Roupas" da página e/ou clicar em "Catalogo" na barra de Menu <br> - Rolar a página para visualizar todas os itens disponíveis no catálogo <br> |
 |Critério de Êxito | - Exibição na tela de todos os itens disponíveis no catálogo. |
 |  	|  	|
 | Caso de Teste 	| CT-03 – Filtros	|
 |Requisito Associado | RF-003	- A aplicação deve possibilitar o filtro dos itens constantes no catálogo. |
 | Objetivo do Teste 	| Verificar se os filtros estão aplicados conforme seleção do usuário. |
-| Passos 	| - Acessar a página Catalogo através da aba Catalogo <br> - Na página Catalogo, Selecionar o Genero da peça de roupa ou inserir o codigo da mesma e clicar no botão "Filtrar" <br> - Utilizar os filtros disponíveis no Topo da aplicação. <br> |
+| Passos 	| - Acessar a página Catalogo através da barra de Menu da Home <br> - Na página Catalogo, Selecionar o Genero da peça de roupa ou inserir o codigo da mesma e clicar no botão "Filtrar" <br> - Utilizar os filtros disponíveis no Topo da aplicação. <br> |
 |Critério de Êxito | - Serão exibidos para o usuário os itens conforme o filtro aplicado. |
 |  	|  	|
-| Caso de Teste 	| CT-04 – Realizar pedido	|
-|Requisito Associado | RF-004	- A aplicação deve permitir que o usuário realize seu pedido. |
-| Objetivo do Teste 	| Verificar se o pedido será finalizado após o usuário selecionar os itens no carrinho e clicar para fechar o pedido. |
-| Passos 	| - Acessar a página home através do link da aplicação <br> - Na página home, clicar para ver todas as peças de roupas disponíveis <br> - Selecionar um ou mais itens do catálogo. <br> - Clicar no botão para fechar o pedido. <br> - Inserir as informações pessoais no modal e clicar para finalizar o pedido. <br>|
-|Critério de Êxito | - Será exibida na tela uma mensagem informando que o pedido foi finalizado. |
-|  	|  	|
-| Caso de Teste 	| CT-05 – Cadastrar itens	|
+| Caso de Teste 	| CT-04 – Cadastrar itens	|
 |Requisito Associado | RF-005	- A aplicação deve permitir que os colaboradores cadastrem as informações no catálogo de itens. |
 | Objetivo do Teste 	| Certificar que novos itens estão sendo cadastrados. |
-| Passos 	| - Acessar a página home através do link da aplicação <br> - Na página home, clicar no icone de usuário na parte superior direita <br> - Realizar o login. <br> - Na página do voluntário, cadastrar novo item na seção "Cadastre um novo item". <br> |
+| Passos 	| - Acessar a página home através do link da aplicação <br> - Na página home, clicar no icone de usuário na parte superior direita <br> - Realizar o login. <br> - Na página do "Dashboard", cadastrar novo item na seção "Cadastre um novo item". <br> |
 |Critério de Êxito | - Será exibida na tela uma mensagem informando que o item foi cadastrado com sucesso. |
 |  	|  	|
-| Caso de Teste 	| CT-06 – Login	|
+| Caso de Teste 	| CT-05 – Login	|
 |Requisito Associado | RF-006	- A aplicação deve ter uma área de login para colaboradores da ONG. |
 | Objetivo do Teste 	| Certificar que os voluntários conseguem logar. |
-| Passos 	| - Acessar a página home através do link da aplicação <br> - Na página home, clicar no icone de usuário na parte superior direita <br> - Realizar o login. <br> |
+| Passos 	| - Acessar a página home através do link da aplicação <br> - Na página home, clicar em "sair" no Menu na parte superior direita <br> - Realizar o login. <br> |
 |Critério de Êxito | - O voluntário terá acesso a área logada. |
 |  	|  	|
-| Caso de Teste 	| CT-07 – Armazenamento de informações 	|
+| Caso de Teste 	| CT-06 – Armazenamento de informações 	|
 |Requisito Associado | RF-007	- A aplicação deve ser capaz de gravar informações de roupas, doadores e usuários. |
 | Objetivo do Teste 	| Verificar se as informações foram armazenadas. |
-| Passos 	| - Acessar a página home através do link da aplicação <br> - Na página home, clicar para ver todas as peças de roupas disponíveis <br> |
+| Passos 	| - Acessar a página home através do link da aplicação <br> - Clicar em "sair" no Menu na parte superior direita e logar como valontário <br> - Na página home, clicar em "Dashboard" e em seguida "Cadastrar um novo item", preenchendo os dados de cadastro do item e clicando em "salvar" <br> Verificar se o ietm aparece listado no "Dashboard" e no Catalogo de itens <br> |
 |Critério de Êxito | - As informações cadastradas poderão ser acessadas. |
 |  	|  	|
-| Caso de Teste 	| CT-08 – Cadastro de candidatos ao voluntariado |
+| Caso de Teste 	| CT-07 – Cadastro de candidatos ao voluntariado |
 |Requisito Associado | RF-008	- A aplicação deve conter uma área com um formulário para cadastro de candidatos para voluntariado. |
 | Objetivo do Teste 	| Verificar se o candidato foi cadastrado. |
-| Passos 	| - Acessar a página home através do link da aplicação <br> - Na página home, preencher os campos na área "Quero ser um voluntário(a)" e clicar no botão "enviar" <br> |
-|Critério de Êxito | - Será exibida uma mensagem de sucesso. |
+| Passos 	| - Acessar a página home através do link da aplicação <br> - Na página home, clicar em "Quero participar" da área "Seja um voluntário" <br> - Preencher os campos do formulário e clicar em "salvar" <br> |
+|Critério de Êxito | - Cadastro do candidato aparecer listado para visualização do Admin. |
