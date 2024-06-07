@@ -23,7 +23,7 @@ Por exemplo:
 | Caso de Teste 	| CT-03 – Filtros	|
 |Requisito Associado | RF-003	- A aplicação deve possibilitar o filtro dos itens constantes no catálogo. |
 | Objetivo do Teste 	| Verificar se os filtros estão aplicados conforme seleção do usuário. |
-| Passos 	| - Acessar a página Catalogo através da aba Catalogo <br> - Na página Catalogo, Selecionar o Genero da peça de roupa ou inserir o codigo da mesma e clicar no botão "Filtrar" <br> - Utilizar os filtros disponíveis na lateral esquerda da aplicação. <br> |
+| Passos 	| - Acessar a página Catalogo através da aba Catalogo <br> - Na página Catalogo, Selecionar o Genero da peça de roupa ou inserir o codigo da mesma e clicar no botão "Filtrar" <br> - Utilizar os filtros disponíveis no Topo da aplicação. <br> |
 |Critério de Êxito | - Serão exibidos para o usuário os itens conforme o filtro aplicado. |
 |  	|  	|
 | Caso de Teste 	| CT-04 – Realizar pedido	|
