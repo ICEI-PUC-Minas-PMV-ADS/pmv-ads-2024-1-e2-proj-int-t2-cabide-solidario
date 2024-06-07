@@ -14,6 +14,11 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 |	Requisito Associado 	| RF-005 - A aplicação deve permitir que os colaboradores cadastrem as informações no catálogo de itens. |
 |Registro de evidência | [Screencast do teste do CRUD da tabela de roupas doadas](https://drive.google.com/file/d/1TlPXu1PD4IjaJwtTp3hg-D3xmQx3vuJI/view?usp=sharing) |
 
+| **Caso de Teste** 	| **CT-03 – Filtros** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-003 - A aplicação deve possibilitar o filtro dos itens constantes no catálogo. |
+|Registro de evidência | |
+
 ## Avaliação
 
 O teste de exibição da página Home (CT-01) foi parcialmente bem-sucedida, pois apresenta as informações propostas, mas ainda falta vincular os links para as demais páginas da aplicação, assim como inclusão de logo e contraste da marca. É importante salientar que ainda não se encontra hospedado, tendo seu acesso local ainda.
