@@ -11,6 +11,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 + ### Antônio Caetano
 
 	<img src="https://get.pxhere.com/photo/man-person-portrait-senior-citizen-glasses-head-odyssey-plpconnectu-idaho-facial-hair-vision-care-military-officer-354914.jpg" alt="drawing" style="width:200px;"/>
+ Figura 01: Exemplo de persona.
 
 	+ **Idade**: 61 anos
 
@@ -36,6 +37,7 @@ Whatsapp ; Google
 + ### Geovana Mendes
 
 	<img src="https://images.pexels.com/photos/5255556/pexels-photo-5255556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="drawing" style="width:200px;"/>
+Figura 02: Outro exemplo de persona.
 
 	+ **Idade**: 25 anos
 
@@ -84,11 +86,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-01| A aplicação deve apresentar informações gerais da ONG, colaboradores e patrocinadores.   | ALTA |
 |RF-02| A aplicação deve disponibilizar um catálogo de todas as roupas disponíveis para doação. | ALTA | 
 |RF-03| A aplicação deve possibilitar o filtro dos itens constantes no catálogo.   | ALTA |
-|RF-04| A aplicação deve permitir que o usuário realize seu pedido. | ALTA | 
-|RF-05| A aplicação deve permitir que os colaboradores cadastrem as informações no catálogo de itens.   | ALTA |
-|RF-06| A aplicação deve ter uma área de login para colaboradores da ONG. | ALTA | 
-|RF-07| A aplicação deve ser capaz de gravar informações de roupas, doadores e usuários.   | ALTA |
-|RF-08| A aplicação deve conter uma área com um formulário para cadastro de candidatos para voluntariado.   | MÉDIA |
+|RF-04| A aplicação deve permitir que os colaboradores cadastrem as informações no catálogo de itens.   | ALTA |
+|RF-05| A aplicação deve ter uma área de login para colaboradores da ONG. | ALTA | 
+|RF-06| A aplicação deve ser capaz de gravar informações de roupas, doadores e usuários.   | ALTA |
+|RF-07| A aplicação deve conter uma área com um formulário para cadastro de candidatos para voluntariado.   | MÉDIA |
 
 ### Requisitos não Funcionais
 
@@ -114,3 +115,4 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 O diagrama de casos de uso utiliza um modelo gráfico dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos, conforme imagem a seguir:
 
 ![Diagrama de casos de uso - Cabide Solidário](https://lucid.app/publicSegments/view/1b91e9b0-1554-49b6-9d6e-7b256b304e3b/image.png)
+Figura 03: Diagrama de Casos de Uso.
