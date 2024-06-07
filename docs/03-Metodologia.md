@@ -38,8 +38,8 @@ A organização da equipe se dará da seguinte forma:
 
 - `Scrum Master`: Clarence Silva Aguiar;
 - `Product Owner`: Estevão Cota da Fonseca;
-- `Equipe de Desenvolvimento`: Abraão Vinicius Vicentini, Caio Slaviero da Cunha, Carlos Gabriel Campos Gaspar, Clarence Silva Aguiar, Estevão Cota da Fonseca, Gabriel de Oliveira Mendonça;
-- `Equipe de Design`: Abraão Vinicius Vicentini, Caio Slaviero da Cunha, Carlos Gabriel Campos Gaspar e Gabriel de Oliveira Mendonça.
+- `Equipe de Desenvolvimento`: Abraão Vinicius Vicentini, Clarence Silva Aguiar, Estevão Cota da Fonseca, Gabriel de Oliveira Mendonça;
+- `Equipe de Design`: Abraão Vinicius Vicentini e Gabriel de Oliveira Mendonça.
 
 ### Processo
 
