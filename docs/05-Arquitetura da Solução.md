@@ -15,7 +15,7 @@ Figura 09: Diagrama de Classes.
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
-![Modelo ER](img/NovoDER.jpg)
+![Modelo ER](img/modelo_er.jpeg)
 Figura 10: Modelo ER (Projeto Conceitual).
 
 ## Projeto da Base de Dados
