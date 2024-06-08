@@ -9,21 +9,36 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 |	Requisito Associado 	| RF-001 - A aplicação deve apresentar informações gerais da ONG, colaboradores e patrocinadores. |
 |Registro de evidência | [Screencast do teste de visualização das informações na página Home](https://drive.google.com/file/d/1chTPIPNJbQBA1nKHDWwdJK53E5UzfKYv/view?usp=sharing) |
 
-| **Caso de Teste** 	| **CT-05 – Cadastrar itens** 	|
+| **Caso de Teste** 	| **CT-02 – Acesso ao catálogo de roupas** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-005 - A aplicação deve permitir que os colaboradores cadastrem as informações no catálogo de itens. |
-|Registro de evidência | [Screencast do teste do CRUD da tabela de roupas doadas](https://drive.google.com/file/d/1TlPXu1PD4IjaJwtTp3hg-D3xmQx3vuJI/view?usp=sharing) |
+|	Requisito Associado 	| RF-002 - A aplicação deve disponibilizar um catálogo de todas as roupas disponíveis para doação. |
+|Registro de evidência | [Screencast do teste de visualização do catálogo de itens](https://drive.google.com/file/d/1czHKDv8ak72JvMAs6CC5mwd_7kbwbUVq/view?usp=sharing) |
 
 | **Caso de Teste** 	| **CT-03 – Filtros** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-003 - A aplicação deve possibilitar o filtro dos itens constantes no catálogo. |
-|Registro de evidência | |
+|Registro de evidência | [Screencast do teste de utilização dos filtros no catálogo de itens](https://drive.google.com/file/d/1WmhH73rwtPtEarcJ-73LgkiCbXuaEyKs/view?usp=sharing) |
+
+| **Caso de Teste** 	| **CT-04 – Cadastrar itens** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-004 - A aplicação deve permitir que os colaboradores cadastrem as informações no catálogo de itens. |
+|Registro de evidência | [Screencast do teste de cadastro de itens no catálogo](https://drive.google.com/file/d/1TlPXu1PD4IjaJwtTp3hg-D3xmQx3vuJI/view?usp=sharing) |
+
+| **Caso de Teste** 	| **CT-05 – Login** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-005 - A aplicação deve ter uma área de login para colaboradores da ONG. |
+|Registro de evidência | [Screencast do teste de login de admin/voluntário na aplicação](https://drive.google.com/file/d/1SNuOhQ6NXLtOgDPjY9I0SL-ct72ORSGV/view?usp=sharing) |
+
+| **Caso de Teste** 	| **CT-06 – Armazenamento de informações** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-006 - A aplicação deve ser capaz de gravar informações de roupas, doadores e usuários. |
+|Registro de evidência | [Screencast do teste de armazenamento das informações no Banco de Dados](https://drive.google.com/file/d/18ogerPoMzV95OvdVqTnpZFCepa1dNIN4/view?usp=sharing) |
+
+| **Caso de Teste** 	| **CT-07 – Cadastro de candidatos ao voluntariado** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-007 - A aplicação deve conter uma área com um formulário para cadastro de candidatos para voluntariado. |
+|Registro de evidência | [Screencast do teste de cadastro de candidato a ser voluntário na aplicação](https://drive.google.com/file/d/1L9PsjU8wCbXATJxfpYXfRCc3E6AGkx4m/view?usp=sharing) |
 
 ## Avaliação
 
-O teste de exibição da página Home (CT-01) foi parcialmente bem-sucedida, pois apresenta as informações propostas, mas ainda falta vincular os links para as demais páginas da aplicação, assim como inclusão de logo e contraste da marca. É importante salientar que ainda não se encontra hospedado, tendo seu acesso local ainda.
-
-O teste de Cadastro de intes (CT-05) foi bem sucedido apresentando todas as funcionalidades propostas, como criar, editar, visualizar e excluir itens, sendo armazenados no banco de dados SQL Server. Foi verificado que alguns campos de preenchimento do cadastro dos itens, como Tamanho e Gênero poderiam gerar dúvidas no preenchimento, sendo proposto a inclusão de enums para seleção pelo usuário. Embora não apareça no vídeo de teste, a sugestão foi acatada e corrigida, estando funcional.
-
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+O teste de exibição da página Home (CT-01) foi bem sucedida, pois apresenta as informações propostas, com os links para as demais páginas da aplicação, assim como exibição de logo. Além de possibilitar o login para acesso a demais informações da aplicação. Da mesma forma o teste de visualização do catálogo de itens (CT-02) foi igualmente bem sucedido apresentando as informações dos itens disponíveis para doação. Na mesma página é possível realizar os filtros (CT-03) propostos para facilitar a localização de itens no catálogo, embora esteja limitado a busca por gênero e por ID do produto apenas. O teste de Cadastro de itens (CT-04) foi bem sucedido apresentando todas as funcionalidades propostas, como criar, editar, visualizar e excluir itens. Foi utilizado alguns enums em campos de preenchimento para facilitar o preenchimento do responsável. Já o teste de Login do Administrador/Voluntário no sistema (CT-05) teve sucesso com a apresentação de erro, caso o usuário utilize credenciais inválidas e dá acesso às informações propostas com o login bem sucedido. Quanto ao armazenamento das informações (CT-06) foi demonstrado de forma clara o cadastro de itens e exibição dos mesmos nas listas e catálogo, assim como o armazenamento no Banco de Dados MSSQL. Por fim, o teste de cadastro de candidatos ao voluntariado também teve sucesso demonstrando o acesso na página inicial e o armazenamento do cadastro realizado para validação do Administrador da aplicação.
