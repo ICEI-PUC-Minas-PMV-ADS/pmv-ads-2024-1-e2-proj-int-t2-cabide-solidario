@@ -6,7 +6,7 @@ Os testes de usabilidade permitem avaliar a qualidade da interface com o usuári
 
 Os testes de usabilidade têm o objetivo de verificar o funcionamento da aplicação considerando o aspecto usabilidade, ou seja, como o usuário interage com a aplicação para executar determinadas tarefas propostas.
 
-Deverá ser verificado se o usuário "beneficiário" encontra dificuldades na interação com a aplicação para realizar um pedido de roupas através da aplicação, assim como um usuário do tipo "voluntário" para cadastrar/remover/editar os itens, obter relatório de estoque, visualizar as informações de candidatos e dar baixa em itens não mais disponíveis.
+Deverá ser verificado se o usuário "beneficiário" encontra dificuldades na interação com a aplicação visualizar os itens disponíveis através do catálogo, assim como um usuário do tipo "voluntário" para cadastrar/remover/editar os itens, obter relatório de estoque, visualizar as informações de candidatos e dar baixa em itens não mais disponíveis.
 
 ## Participantes
 
@@ -17,8 +17,9 @@ Os testes serão executados por duas pessoas que não façam parte da equipe de 
 As tarefas propostas para o teste são:
 
 * Acessar a aplicação e navegar pela tela principal, visualizando suas informações;
-* Acessar o catálogo de roupas com o intuito de realizar um pedido, procedendo a inclusão/remoção no carrinho e finalização do pedido;
-* Acessar a aplicação como voluntário e fazer o cadastro/login, cadastro/exclusão/edição de itens do catálogo, obtem o relatório de estoque, visualiza lista de candidatos para aprovação/reprovação.
+* Acessar o catálogo de roupas com o intuito de visualizar os itens disponíveis e realizar os filtros acessíveis;
+* Acessar o cadastro de candidato a voluntário e efetuar um cadastro de proposta na tela principal;
+* Acessar a aplicação como administrador/voluntário efetuando o login, entrar no "dashboard" e fazer o cadastro/exclusão/edição de itens do catálogo, entrar em "candidatos" e visualizar a lista de candidatos para análise, entrar em "usuários" e fazer o cadastro/exclusão/edição de usuários.
 
 O participante deverá preencher o questionário abaixo para que seja possível a avaliação da usabilidade da aplicação.
 
