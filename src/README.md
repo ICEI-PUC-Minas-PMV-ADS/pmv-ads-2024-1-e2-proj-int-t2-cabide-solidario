@@ -14,4 +14,4 @@ O usuário de teste, administrador, possui o login e a senha a seguir: usuário 
 
 ### [0.1.0] - 08/06/2024
 #### Adicionado
-- Adicionado ![Código Fonte](../src/cabide-solidario)
+- Adicionado [Código Fonte](../src/cabide-solidario)
