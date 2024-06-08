@@ -29,23 +29,23 @@ Por exemplo:
 | Caso de Teste 	| CT-04 – Cadastrar itens	|
 |Requisito Associado | RF-005	- A aplicação deve permitir que os colaboradores cadastrem as informações no catálogo de itens. |
 | Objetivo do Teste 	| Certificar que novos itens estão sendo cadastrados. |
-| Passos 	| - Acessar a página home através do link da aplicação <br> - Na página home, clicar no icone de usuário na parte superior direita <br> - Realizar o login. <br> - Na página do "Dashboard", cadastrar novo item na seção "Cadastre um novo item". <br> |
-|Critério de Êxito | - Será exibida na tela uma mensagem informando que o item foi cadastrado com sucesso. |
+| Passos 	| - Acessar a página home através do link da aplicação <br> - Na página home, clicar no icone de usuário na parte superior direita <br> - Realizar o login. <br> - Na página do "Dashboard", cadastrar novo item na seção "Cadastre um novo item", preenchendo o formulário e clicando em "salvar". <br> |
+|Critério de Êxito | - O item cadastrado deve aparecer listado entre os itens cadastrados e também no catálogo de itens. |
 |  	|  	|
 | Caso de Teste 	| CT-05 – Login	|
 |Requisito Associado | RF-006	- A aplicação deve ter uma área de login para colaboradores da ONG. |
 | Objetivo do Teste 	| Certificar que os voluntários conseguem logar. |
-| Passos 	| - Acessar a página home através do link da aplicação <br> - Na página home, clicar em "sair" no Menu na parte superior direita <br> - Realizar o login. <br> |
+| Passos 	| - Acessar a página home através do link da aplicação <br> - Na página home, clicar em "sair" no Menu na parte superior direita <br> - Realizar o login com usuário e senha de administrador. <br> |
 |Critério de Êxito | - O voluntário terá acesso a área logada. |
 |  	|  	|
 | Caso de Teste 	| CT-06 – Armazenamento de informações 	|
 |Requisito Associado | RF-007	- A aplicação deve ser capaz de gravar informações de roupas, doadores e usuários. |
 | Objetivo do Teste 	| Verificar se as informações foram armazenadas. |
-| Passos 	| - Acessar a página home através do link da aplicação <br> - Clicar em "sair" no Menu na parte superior direita e logar como valontário <br> - Na página home, clicar em "Dashboard" e em seguida "Cadastrar um novo item", preenchendo os dados de cadastro do item e clicando em "salvar" <br> Verificar se o ietm aparece listado no "Dashboard" e no Catalogo de itens <br> |
-|Critério de Êxito | - As informações cadastradas poderão ser acessadas. |
+| Passos 	| - Acessar a página home através do link da aplicação <br> - Clicar em "sair" no Menu na parte superior direita e logar como valontário <br> - Na página home, clicar em "Usuários" e em seguida "Cadastrar um novo usuário", preenchendo os dados de cadastro do usuário e clicando em "salvar" <br> Verificar se o usuário aparece listado no "Usuários" no munu principal <br> |
+|Critério de Êxito | - O usuário cadastrado deve conseguir logar com as informações cadastradas. |
 |  	|  	|
 | Caso de Teste 	| CT-07 – Cadastro de candidatos ao voluntariado |
 |Requisito Associado | RF-008	- A aplicação deve conter uma área com um formulário para cadastro de candidatos para voluntariado. |
 | Objetivo do Teste 	| Verificar se o candidato foi cadastrado. |
 | Passos 	| - Acessar a página home através do link da aplicação <br> - Na página home, clicar em "Quero participar" da área "Seja um voluntário" <br> - Preencher os campos do formulário e clicar em "salvar" <br> |
-|Critério de Êxito | - Cadastro do candidato aparecer listado para visualização do Admin. |
+|Critério de Êxito | - Cadastro do candidato aparecer listado para visualização do Admin através de "Candidatos" no menu. |
