@@ -11,8 +11,6 @@ Desenvolvimento de uma aplicação que auxilie, em seus processos internos, uma 
 ## Integrantes
 
 * Abraão Vinicius Vicentini
-* Caio Slaviero da Cunha
-* Carlos Gabriel Campos Gaspar
 * Clarence Silva Aguiar
 * Estevão Cota da Fonseca
 * Gabriel de Oliveira Mendonça
@@ -23,13 +21,13 @@ Desenvolvimento de uma aplicação que auxilie, em seus processos internos, uma 
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Aplicação web para facilitar e integrar agentes do processo de doação de roupas, desenvolvido em C#, HTML e CSS através do .NET e o Entity Framework, além do MSSQL server.
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
+O link onde a aplicação está disponível para acesso é pela URL: http://clarenceaguiar-001-site1.gtempurl.com/
 
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
+As credenciais necessárias para acesso a aplicação web são: Nome de usuário: 11176862 / Senha: 60-dayfreetrial.
 
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+O usuário de teste, administrador, possui o login e a senha a seguir: usuário - ADMIN / senha - ADMIN.
 
 # Documentação
 
