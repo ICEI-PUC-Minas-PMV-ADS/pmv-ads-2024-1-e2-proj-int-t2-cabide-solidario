@@ -9,45 +9,43 @@
     <link rel="stylesheet" href="~/cabide_solidario.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <div class="container-fluid ajustarPosition">
-        <div class="row">
-            <nav class="navbar navbar-expand-lg p-3 navbar-dark bg-dark justify-content-between navAjustes">
 
-                <div class="navbar-area-logo">
-                    <img class="navbar-logo" src="/css/logo.png" alt="Alternate Text" />
-                </div>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="nav-item nav-link">Sair</a>
-
-            </nav>
+    <header>
+        <nav class="navbar p-3 navbar-dark bg-dark justify-content-start align-content-center navAjustes">
+            <div class="navbar-area-logo">
+                <img class="navbar-logo" src="/css/logo.png" alt="Alternate Text" />
+            </div>
+            <a asp-area="" asp-controller="Home" asp-action="Index" class="nav-item nav-link text-light ">Home</a>
+        </nav>
+    </header>
+    
+    <div class="wrapper">
+        <div class="bg-dark sidebar collapsed">
+            <button class="toggle-btn">&laquo;</button>
+            <a asp-area="" asp-controller="RoupasDoadas" asp-action="Index"><span>Cadastrar Itens</span></a>
+            <a asp-area="" asp-controller="Candidatos" asp-action="Index" class="nav-item nav-link"><span>Candidatos</span></a>
+            <a asp-area="" asp-controller="Parceiros" asp-action="Index" class="nav-item nav-link"><span>Parceiros</span></a>
         </div>
-        <div class="row mainPosition">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light col-1">
-
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-
-                    <span class="navbar-toggler-icon"></span>
-
-                </button>
-
-                <div class="navbar-collapse collapse align-self-start" id="navbarMenu">
-                    <div class="navbar-nav row">
-
-                        <a asp-area="" asp-controller="RoupasDoadas" asp-action="Index" class="nav-item nav-link">Cadastrar Itens</a>
-                        <a asp-area="" asp-controller="Candidatos" asp-action="Index" class="nav-item nav-link">Candidatos</a>
-                        <a asp-area="" asp-controller="Parceiros" asp-action="Index" class="nav-item nav-link">Parceiros</a>
-
-                    </div>
-                </div>
-
-            </nav>
-            <main class="col pb-3 d-flex flex-column">
-                @RenderBody()
-            </main>
+        <div class="content">
+            <main>@RenderBody()</main>
         </div>
     </div>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.toggle-btn').click(function () {
+                $('.sidebar').toggleClass('collapsed');
+                $(this).toggleClass('collapsed');
+                $(this).text($(this).hasClass('collapsed') ? '«' : '»');
+            });
+        });
+    </script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

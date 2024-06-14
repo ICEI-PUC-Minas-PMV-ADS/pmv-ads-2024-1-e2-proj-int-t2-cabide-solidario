@@ -2,19 +2,112 @@
     margin: 0;
     padding: 0;
 }
-.ajustarPosition{
-    display:flex;
-    flex-direction:column;
-    height:100vh;
-}
-.mainPosition{
-    flex:1;
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
+.wrapper {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    width: 250px;
+    color: white;
+    min-height: 100vh;
+    transition: width 0.3s;
+}
+
+    .sidebar.collapsed {
+        width: 60px;
+    }
+
+    .sidebar a {
+        color: white;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .sidebar.collapsed a span {
+        display: none;
+    }
+
+    .sidebar a:hover {
+        background: #495057;
+    }
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.toggle-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    text-align: left;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+    .toggle-btn.collapsed {
+        text-align: center;
+        padding: 10px 0;
+    }
 .navbar-logo {
     width: 70px;
 }
 
 .navAjustes {
     height: 80px;
+}
+@media only screen and (max-width:800px) {
+    #no-more-tables tbody,
+    #no-more-tables tr,
+    #no-more-tables td {
+        display: block;
+    }
+   
+
+    #no-more-tables thead tr {
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+    }
+
+    #no-more-tables td {
+        position: relative;
+        padding-left: 50%;
+        border: none;
+        border-bottom: 1px solid #eee;
+    }
+    #no-more-tables .DbButton {
+        padding-left: 0;
+    }
+
+        #no-more-tables td:before {
+            content: attr(data-title);
+            position: absolute;
+            left: 6px;
+            font-weight: bold;
+        }
+
+    #no-more-tables tr {
+        border-bottom: 1px solid #ccc;
+    }
+
+    .sidebar {
+        width: 150px;
+        background: #343a40;
+        color: white;
+        min-height: 100vh;
+        transition: width 0.3s;
+    }
 }
