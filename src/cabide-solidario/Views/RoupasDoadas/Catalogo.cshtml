@@ -22,6 +22,10 @@
         <label for="codigoProdutoInput">Buscar por código do produto:</label>
         <input type="text" name="codigoProduto" id="codigoProdutoInput" class="form-control" value="@ViewData["CurrentFilterCodigoProduto"]" />
     </div>
+    <div class="form-group mt-2">
+        <label for="corInput">Buscar por cor:</label>
+        <input type="text" name="cor" id="corInput" class="form-control" value="@ViewData["CurrentFilterCor"]" />
+    </div>
     <button type="submit" class="btn btn-primary mt-2">Filtrar</button>
 </form>
 
@@ -35,6 +39,7 @@
                 <h5 class="card-title">@item.NomeItem</h5>
                 <p class="card-text">
                     @Html.Raw(item.Genero)<br />
+                    <strong>Cor: </strong>@Html.Raw(item.Cor)<br />
                     <span class="fw-bold">Código do Produto: </span>@Html.Raw(item.CodigoProduto)
                 </p>
 

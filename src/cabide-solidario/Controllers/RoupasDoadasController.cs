@@ -23,10 +23,11 @@ namespace cabide_solidario.Controllers
             return View(dados);
         }
         [AllowAnonymous]
-        public async Task<IActionResult> Catalogo(string genero, string codigoProduto)
+        public async Task<IActionResult> Catalogo(string genero, string codigoProduto, string cor)
         {
             ViewData["CurrentFilterGenero"] = genero;
             ViewData["CurrentFilterCodigoProduto"] = codigoProduto;
+            ViewData["CurrentFilterCor"] = cor;
 
             var roupas = from r in _context.RoupasDoadas
                          select r;
@@ -39,6 +40,11 @@ namespace cabide_solidario.Controllers
             if (!String.IsNullOrEmpty(codigoProduto))
             {
                 roupas = roupas.Where(r => r.CodigoProduto.Contains(codigoProduto));
+            }
+
+            if (!String.IsNullOrEmpty(cor))
+            {
+                roupas = roupas.Where(r => r.Cor.ToLower().Contains(cor.ToLower()));
             }
 
             return View(await roupas.ToListAsync());
