@@ -1,0 +1,23 @@
+message: Please cite this software using these metadata.
+title: Cabide Solidário
+authors:
+  - family-names: Vinícius Vicentini
+    given-names: Abraão
+  - family-names: Silva Aguiar
+    given-names: Clarence
+  - family-names: Cota da Fonseca
+    given-names: Estevão
+  - family-names: de Oliveira Mendonça
+    given-names: Gabriel
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Wilson da Costa
+    given-names: José
+keywords:
+  - Solidário
+  - Doação
+  - Vestuário
+  - Gestão	
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-cabide-solidario.git
+version: 1.0.0
+date-released: 2024-06-21
