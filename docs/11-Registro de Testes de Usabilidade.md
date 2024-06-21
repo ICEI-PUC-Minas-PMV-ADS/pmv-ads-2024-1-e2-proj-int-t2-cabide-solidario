@@ -24,6 +24,6 @@ Em relação a quantidade de cliques necessários para executar as tarefas, os p
 Por último, relacionado a registrar livremente erros na aplicação, foi registrado por um dos participantes que "... no cadastro de itens o campo código do produto deveria ser gerado automaticamente para facilitar o controle." Os três participantes informaram a opção de voltar a Home ser "sair", na navegação entre as páginas deveria ser modificada para "voltar" ou algo similar. Os outrso pontos já mencionados foi ampliar as opções de filtro e a opção de "login" na página inicial ao invés de "sair".
 
 ## Considerações finais
-Considerando as informações apresentadas a equipe avaliará as mudanças propostas considerando o escopo porposto da aplicação. A melhoria da responsividade mobile apontada, os pequenos ajustes de nomenclatura das "ações" nas páginas, incluir outras opções de filtros e a codificação automática dos produtos cadastrados, devem ser contemplados na próxima etapa melhorias finais na aplicação. 
+Considerando as informações apresentadas a equipe efetuou algumas mudanças propostas considerando o escopo porposto da aplicação. Uma melhoria na responsividade mobile, os pequenos ajustes de nomenclatura das "ações", como a volta à página "Home" substituindo o "sair" nas páginas e incluído mais uma opção de filtro, por cor. 
 De forma geral, os participantes ficaram satisfeitos com a aplicação proposta e o design apresentado, além de se apresentar como uma ferramenta web cujo objetivo seja ajudar os menos favorecidos e facilitar a forma de ajuda da comunidade em geral.
 
