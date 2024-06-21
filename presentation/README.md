@@ -1,3 +1,11 @@
 # Apresentação da Solução
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t2-cabide-solidario/blob/4469e91472abf7643cc36302e01ee1305b0a4e7f/presentation/video-apresentacao-cabide-solidario_compac.mp4
+Vídeos de apresentação da proposta inicial e versão final da solução.
+
+## Apresentação da proposta inicial da solução
+
+[Proposta inicial da solução](https://drive.google.com/file/d/1o4UQkfxTp-Hw6vk1f1r0uAfw0KPlJJxk/view?usp=sharing)
+
+## Apresentação da solução final
+
+[Solução final](https://drive.google.com/file/d/1GmzHFLshyhVfw3La9o8k9m-CpkYGbSNA/view?usp=sharing)
