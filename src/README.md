@@ -12,6 +12,6 @@ O usuário de teste, administrador, possui o login e a senha a seguir: usuário 
 
 ## Histórico de versões
 
-### [0.1.0] - 08/06/2024
+### [1.0.0] - 21/06/2024
 #### Adicionado
 - Adicionado [Código Fonte](../src/cabide-solidario)
